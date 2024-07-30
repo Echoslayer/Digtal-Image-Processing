@@ -2,4 +2,8 @@
 
 Book: 數位影像處理與應用
 
-- DCT example
+- DCT Example
+
+- Binary Example
+
+- 
