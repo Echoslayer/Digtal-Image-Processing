@@ -20,6 +20,14 @@ Book(Including Notes):
   - Smooth Methods
 
   - Typology Methods 
+  
+  - edge_detection
+
+  - threshold
+
+  - region_segmentation
+
+  - line 
 
 - Book Codes
 

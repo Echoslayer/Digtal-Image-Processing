@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "40b33080a3c4e2d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0c6184baac2211e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca9280197cec5ced",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "71c93a6af04a9c39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "979bc24b41e457ae",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37af3f7dc9b001b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "40f938620003ad08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e55a3944e0532ffd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "009362747b9c71a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e241ea2a305951fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "679d4c70e779785e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d9aeebf247c6246",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "101856a85165efb9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f7591f137fc7a3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f125114f7f012105",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "705faed78e128c26",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "ca9280197cec5ced",
+  "lastOpenFiles": [
+    "影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf",
+    "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "影像處理與電腦視覺/PDF/Chapter 5 門檻值決定與區域的分割.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 3 影像品質的改善與回復.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 2 型態學、DCT、人臉定位與 FFT.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 1 光、影像、品質與浮水印.pdf",
+    "數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "影像處理與電腦視覺/PDF/Chapter 16 深度學習在電腦視覺的應用.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 15 三維影像的彩現.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 14 彩色影像處理.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 13 影像資料庫檢索.pdf"
+  ]
+}
