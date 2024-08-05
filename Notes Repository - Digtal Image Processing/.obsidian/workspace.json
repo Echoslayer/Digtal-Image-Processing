@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "f60d635f7400a79f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "71c93a6af04a9c39",
@@ -33,7 +46,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf"
+                "file": "影像處理與電腦視覺/PDF/Chapter 7 圓與橢圓偵測.pdf"
               }
             }
           }
@@ -87,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.5
   },
   "right": {
     "id": "679d4c70e779785e",
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md"
+                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md"
               }
             }
           }
@@ -164,19 +177,19 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "ca9280197cec5ced",
+  "active": "f60d635f7400a79f",
   "lastOpenFiles": [
-    "影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 7 圓與橢圓偵測.pdf",
+    "數位影像處理與應用/Index of 數位影像處理與應用.md",
     "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "影像處理與電腦視覺/PDF/Chapter 5 門檻值決定與區域的分割.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf",
     "影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
     "影像處理與電腦視覺/PDF/Chapter 3 影像品質的改善與回復.pdf",
     "影像處理與電腦視覺/PDF/Chapter 2 型態學、DCT、人臉定位與 FFT.pdf",
     "影像處理與電腦視覺/PDF/Chapter 1 光、影像、品質與浮水印.pdf",
-    "數位影像處理與應用/Index of 數位影像處理與應用.md",
     "影像處理與電腦視覺/PDF/Chapter 16 深度學習在電腦視覺的應用.pdf",
     "影像處理與電腦視覺/PDF/Chapter 15 三維影像的彩現.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 14 彩色影像處理.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 13 影像資料庫檢索.pdf"
+    "影像處理與電腦視覺/PDF/Chapter 14 彩色影像處理.pdf"
   ]
 }
