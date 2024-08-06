@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "3c8fd2eff12de311",
+        "id": "a1894d8ff8473320",
         "type": "tabs",
         "children": [
           {
-            "id": "560e7068fb86a076",
+            "id": "67b8d4ab031ed168",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -146,6 +146,18 @@
                 "file": "數位影像處理/Index of 數位影像處理.md"
               }
             }
+          },
+          {
+            "id": "91722dff393718f8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
         ]
       }
@@ -168,6 +180,7 @@
   "lastOpenFiles": [
     "數位影像處理/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
     "數位影像處理/Index of 數位影像處理.md",
+    "數位影像處理/未命名.md",
     "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "數位影像處理/Digital Image Processing, 3rd edition ( PDFDrive.com ).pdf",
     "數位影像處理",

@@ -1,6 +1,6 @@
 # Digtal-Image-Processing
 
-Book(Including Notes): 
+Introduce Books: 
 
 - 數位影像處理與應用 Digtal Image Processing and Applications
 
