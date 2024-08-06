@@ -8,45 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca9280197cec5ced",
+            "id": "7399881840e0e3c6",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "file": "數位影像處理/Index of 數位影像處理.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "f60d635f7400a79f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "71c93a6af04a9c39",
+        "id": "3c8fd2eff12de311",
         "type": "tabs",
         "children": [
           {
-            "id": "979bc24b41e457ae",
+            "id": "560e7068fb86a076",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "影像處理與電腦視覺/PDF/Chapter 7 圓與橢圓偵測.pdf"
+                "file": "數位影像處理/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf"
               }
             }
           }
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md",
+                "file": "數位影像處理/Index of 數位影像處理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md",
+                "file": "數位影像處理/Index of 數位影像處理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "數位影像處理與應用/Index of 數位影像處理與應用.md"
+                "file": "數位影像處理/Index of 數位影像處理.md"
               }
             }
           }
@@ -177,19 +164,20 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "f60d635f7400a79f",
+  "active": "7399881840e0e3c6",
   "lastOpenFiles": [
-    "影像處理與電腦視覺/PDF/Chapter 7 圓與橢圓偵測.pdf",
-    "數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "數位影像處理/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
+    "數位影像處理/Index of 數位影像處理.md",
     "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-    "影像處理與電腦視覺/PDF/Chapter 5 門檻值決定與區域的分割.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 3 影像品質的改善與回復.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 2 型態學、DCT、人臉定位與 FFT.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 1 光、影像、品質與浮水印.pdf",
+    "數位影像處理/Digital Image Processing, 3rd edition ( PDFDrive.com ).pdf",
+    "數位影像處理",
     "影像處理與電腦視覺/PDF/Chapter 16 深度學習在電腦視覺的應用.pdf",
     "影像處理與電腦視覺/PDF/Chapter 15 三維影像的彩現.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 14 彩色影像處理.pdf"
+    "影像處理與電腦視覺/PDF/Chapter 12 影像與視訊壓縮.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 11 分群與應用.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 10 空間資料結構設計與應用.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 9 圖形識別、匹配與三維影像重建.pdf",
+    "影像處理與電腦視覺/PDF/Chapter 8 紋理描述與分類.pdf",
+    "數位影像處理與應用/Index of 數位影像處理與應用.md"
   ]
 }
