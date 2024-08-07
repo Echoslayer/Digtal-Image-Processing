@@ -8,18 +8,19 @@
 - One picture is worth more than ten thousand words.(Anonymous)
 - 影像處理的基本步驟
 	- 影像擷取
-		- ch2
+		- ch02
 	- 影像增強
-		- ch2, ch3, ch4
+		- ch02, ch03, ch04
 	- 影像復原
+		- ch05
 	- 彩色影像處理
-		- ch6 
+		- ch06 
 	- 小波
-		- ch7
+		- ch07
 	- 壓縮
-		- ch8
+		- ch08
 	- 形態學處理
-		- ch9
+		- ch09
 	- 分割
 		- ch10
 	- 表示與描述
@@ -40,6 +41,38 @@
 - 強度解析度
 	- 最小可分辨的強度準位變化
 	- 2的整數次方，因為儲存方便
+- 影像內插: 將影像空間解析度放大的方式(有幾種不同的方式)
+- 像素的一些基本關係
+	- 近鄰 [[Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf#page=92&selection=445,0,446,1|Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007), 第 92 頁]] 
+		- 4近鄰(4-neighbor): 十字
+		- 8近鄰(8-neighbor): 米字
+		- 鄰接性 
+			- 8-鄰接的像素可能會通過對角線方向的連接產生不需要的連通區域，而m-鄰接可以避免這種情況
+		- 連通性
+			- 連通的
+			- 連通成分
+			- 連通集合
+		- 區域
+			- 連通集合
+		- 邊界
+			- 內邊界與外邊界
+	- 距離
+		- 歐幾里得距離
+		- 市街距離
+		- 棋盤距離
+- 影像運算
+	- 是點乘積
+	- 細節增強 [[Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf#page=100&selection=8,0,9,0|Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007), 第 100 頁]]
+	- 集合與邏輯運算 [[Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf#page=103&selection=26,1,27,26|Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007), 第 103 頁]]
+	- 模糊集合
+	- 空間運算
+		- 直接在影像的像素上執行，有三種
+			- 單一像素運算
+			- 鄰域運算
+			- 幾何空間轉換
+				- forward mapping
+				- inverse mapping
+				- 解決誤差: 運用連接點(tie point)，人造物會建立網格標記(reseau mark)
 ## 第三章　強度轉換與空間濾波
 - It makes all the difference whether one sees darkness through the light or brightness through the shadows. (David Lindsay)
 ## 第四章　頻率域上的濾波

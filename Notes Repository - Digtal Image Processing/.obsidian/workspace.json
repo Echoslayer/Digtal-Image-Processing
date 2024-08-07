@@ -24,11 +24,11 @@
         ]
       },
       {
-        "id": "a1894d8ff8473320",
+        "id": "5c15336e6fa83dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "67b8d4ab031ed168",
+            "id": "380c87ac87d55cc6",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 234.5
   },
   "right": {
     "id": "679d4c70e779785e",
@@ -180,8 +180,10 @@
   "lastOpenFiles": [
     "數位影像處理/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
     "數位影像處理/Index of 數位影像處理.md",
-    "數位影像處理/未命名.md",
+    "數位影像處理與應用/Index of 數位影像處理與應用.md",
     "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "影像處理與電腦視覺/PDF/Chapter 1 光、影像、品質與浮水印.pdf",
+    "數位影像處理/未命名.md",
     "數位影像處理/Digital Image Processing, 3rd edition ( PDFDrive.com ).pdf",
     "數位影像處理",
     "影像處理與電腦視覺/PDF/Chapter 16 深度學習在電腦視覺的應用.pdf",
@@ -189,8 +191,6 @@
     "影像處理與電腦視覺/PDF/Chapter 12 影像與視訊壓縮.pdf",
     "影像處理與電腦視覺/PDF/Chapter 11 分群與應用.pdf",
     "影像處理與電腦視覺/PDF/Chapter 10 空間資料結構設計與應用.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 9 圖形識別、匹配與三維影像重建.pdf",
-    "影像處理與電腦視覺/PDF/Chapter 8 紋理描述與分類.pdf",
-    "數位影像處理與應用/Index of 數位影像處理與應用.md"
+    "影像處理與電腦視覺/PDF/Chapter 9 圖形識別、匹配與三維影像重建.pdf"
   ]
 }
