@@ -1,0 +1,125 @@
+---
+title: Index of 數位影像處理與應用
+draft: false
+tags:
+  - Index
+---
+
+- 作者: 王旭正、翁麒耀、林家禎
+- 出版日期:2012-08-12
+
+- 心得: 
+	- 前面章節是基礎影像處理的介紹與原理(影響處理技術)
+	- 後面章節更多在影像與密碼學之間的關聯(視覺安全，嵌入等等)
+	- 技術說明有些片面
+	- 許多技術都已過時
+	- 更多重點放在影像的壓縮以及浮水印等等技術，不是我要的
+
+- 
+
+- Part1數位影像概論篇  
+	- CH01 數位影像處理  
+		- RGB(電腦)與CMYK(印刷)的差別
+		- 影像格式: 
+			- BMP: 無壓縮的點陣圖格式，圖像質量高但文件較大，不適合網絡傳輸和存儲。  
+			- JEPG: 有損壓縮格式，壓縮率高，適合網絡傳輸，但品質會隨壓縮比例降低，不適合需要高品質的圖像。  
+			- GIF: 支持8位256色的有損壓縮格式，支持動畫，適合簡單的圖像和圖標，但顏色限制使其不適合高品質照片。  
+			- PNG: 無損壓縮格式，支持透明度，圖像質量高且文件相對較小，適合需要高質量的網頁圖像，但文件仍然可能較大。  
+			- APNG: 有動畫模式的PNG，用來取代GIF
+			- RAW: 未經處理的圖像數據，保留所有細節和動態範圍，適合專業攝影後期處理，但文件非常大且需專門軟件處理。  
+			- TIFF: 高品質無損壓縮格式，支持多層和透明度，適合印刷和專業攝影，但文件非常大，不適合網絡傳輸。
+	- CH02 空間域處理  
+		- $G(x, y)=T[I(x, y)]$
+		- 將影像以位元方式表示，高位元的資訊對影像的結構影響較大，低位元的主要是細節部分，影像處理要壓縮通常都是由低位元處下手
+		- 常見空間域濾波
+			- 負片: 
+				- $G(x, y)=255-I(x, y)$
+				- 應用: X光影像經過負片後更容易看出異樣部位
+			- 對數轉換
+				- $G(x, y)=c\times\log(1+I(x, y))$
+				- 保留深色的像素值，將重複性較高處進行影像壓縮
+			- 中位數濾波器
+				- $G(x, y)=Median{I(x, y)|(x, y)\in M}$
+				- 可以解決影像Salt and Papper Noice 的問題
+			- 拉普拉斯運算
+				- $\nabla^2 f(x, y) = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2}$
+				- $\nabla^2 f(x, y) \approx f(x+1, y) + f(x-1, y) + f(x, y+1) + f(x, y-1) - 4f(x, y)$
+				- 銳利化邊緣
+	- CH03 頻率域處理  
+		- 離散餘弦轉換(Discrete Cosine Transform) 
+			-  [[EXP_ChatGP_DCT]]
+		- 空間到頻率域是正(Forward)DCT，反之則是反(Inverse)DCT
+		- 離散小波轉換
+			- Haar Discrete Wavelet Transform
+			- [Ｗiki](https://zh.wikipedia.org/zh-tw/%E9%9B%A2%E6%95%A3%E5%B0%8F%E6%B3%A2%E8%AE%8A%E6%8F%9B)
+			- 既可捕捉頻率域也有空間域的資訊，Harr是第一個最簡單的小波轉換
+			- 透過類似矩陣分解的方式，將低頻與高頻的部分進行特定的組合，進而分離出不同的頻率部分
+	- CH04 壓縮域處理  
+		- 簡介: 
+			- 摩斯密碼(對照表，常用的用較短組合，少用的在使用較長的)
+			- Huffman Coding(以機率製作樹形成對照表，將常見的字母以較短的字元，少見以較多進行壓縮，可以將需要8bit的英文字母壓縮到平均2.9)
+			- LZW辭典壓縮技術
+			- 無損影像壓縮
+				- Run Length
+				- Differential encoding
+			- 有損影像壓縮
+				- LSB(Least Significant Bit): 就是忽略小位元的值
+				- VQ(Vector Quantization): Encoding and decoding with VQ CodeBook 
+	- CH05 常用影像處理  
+		- 用Matlab進行影像處理
+		- Gaussian lowpass filter
+		- Prewitt horizontal edge-emphasizing filter
+		- DCT, IDCT
+		- Resize and Rotation
+- Part2 影像處理應用篇  
+	- CH06 影像視覺系統  
+		- 視覺安全系統
+			- 基礎黑白視覺
+			- 灰階視覺
+				- 半色調技術: 網點
+				- 點陣式比對方式
+				- 區塊比對方式
+				- 誤差擴散法
+			- 彩色影像
+				- 灰階影像的進階版，依據色彩模型分為RGB與CMYK之後，同灰階影像的處理方式
+		- Secret Sharing
+			- 秘密持有人個別擁有部分鑰匙與資料
+		- 圖形驗證碼
+		- 動態密碼
+		- QR-Code
+	- CH07 影像載體與偽裝  
+		- 偽裝概念介紹
+		- 密碼法: 移位法(Transposition)與替代法(Substitution)
+		- 資訊藏匿(Data Hiding)的目的: 隱匿式通道(Covert Channels)、偽裝法(Steganography)、匿名法(Anonymity)與版權標記(Copyright Making)
+		- 資料嵌入評斷好壞的原則: Transparency、Robustness與Payload
+		- 載體工具
+			- Hide and Seek: 
+			- S-Tools
+	- CH08 影像品質評估與分析
+		- 統計方式評估影像相似度
+		- 工具方式評估影像相似度
+	- CH09 失真式影像復原  
+		-  空間域基礎
+			- LSB嵌入法
+			- OPAP
+			- PVD
+		- 壓縮域
+		- 頻率域
+			- DCT偽裝技術
+			- DWT偽裝技術
+	- CH10 不失真影像復原  
+		- 空間域
+			- Histogram-Based
+			- DE
+		- 壓縮域
+		- 頻率域
+- Part3 影像與生活篇  
+	- CH11 影像智慧權  
+		- 強韌型浮水印
+			- 分散，或到頻率域去
+			- 更改後依然可以得浮水印
+		- 易碎形浮水印
+			- 更改後可以得知
+	- CH12 浮水印工具之應用
+
+
