@@ -1,35 +1,50 @@
 {
   "main": {
-    "id": "7479372cfdc620c6",
+    "id": "40b33080a3c4e2d9",
     "type": "split",
     "children": [
       {
-        "id": "8a4ac9c2f3e6b4b9",
+        "id": "b0c6184baac2211e",
         "type": "tabs",
         "children": [
           {
-            "id": "ffafa306af0a2758",
+            "id": "7399881840e0e3c6",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "6596c29a77a2470a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "308e9592659c6155",
+    "id": "37af3f7dc9b001b6",
     "type": "split",
     "children": [
       {
-        "id": "f9e9bacd12b4dd7c",
+        "id": "40f938620003ad08",
         "type": "tabs",
         "children": [
           {
-            "id": "9ec2f09188cdcd4a",
+            "id": "e55a3944e0532ffd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +54,7 @@
             }
           },
           {
-            "id": "f8fb8105874c5269",
+            "id": "009362747b9c71a2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +69,7 @@
             }
           },
           {
-            "id": "52d3f828234826a5",
+            "id": "e241ea2a305951fd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,22 +80,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 234.5
   },
   "right": {
-    "id": "90cc208da2eba161",
+    "id": "679d4c70e779785e",
     "type": "split",
     "children": [
       {
-        "id": "c818ec9b273f0933",
+        "id": "5d9aeebf247c6246",
         "type": "tabs",
         "children": [
           {
-            "id": "fa46592a4141a0db",
+            "id": "101856a85165efb9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +108,19 @@
             }
           },
           {
-            "id": "e9bc10e857af657d",
+            "id": "4f7591f137fc7a3c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "912f05dfb21b2adf",
+            "id": "f125114f7f012105",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +131,25 @@
             }
           },
           {
-            "id": "1e0923cce8aef41c",
+            "id": "705faed78e128c26",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md"
+              }
+            }
+          },
+          {
+            "id": "91722dff393718f8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
         ]
@@ -138,6 +169,53 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "ffafa306af0a2758",
-  "lastOpenFiles": []
+  "active": "6596c29a77a2470a",
+  "lastOpenFiles": [
+    "數位影像處理_吳昭正/Images/Pasted image 20240813162533.png",
+    "數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813165852.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813165807.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813165713.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813165547.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813165328.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813165257.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813164806.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813164746.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813164403.png",
+    "數位影像處理_吳昭正/Images/Pasted image 20240813164346.png",
+    "數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "Index.md",
+    "templates/Index template.md",
+    "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "數位影像處理/Index of 數位影像處理.md",
+    "數位影像處理/Notes/4.  頻率域上的濾波.md",
+    "數位影像處理與應用/EXP_ChatGPT/EXP_ChatGP_DCT.md",
+    "未命名.md",
+    "templates",
+    "Pasted image 20240813153806.png.md",
+    "數位影像處理/Notes/Tutorials 數位影像處理.md",
+    "數位影像處理_吳昭正/Images",
+    "數位影像處理_吳昭正",
+    "數位影像處理/PDF/DIP_3E_Student_Solutions.pdf",
+    "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(d)(lung).tif",
+    "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(c)(skull).tif",
+    "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(b)(fractal-moonscape).tif",
+    "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(a)(fractal-iris).tif",
+    "數位影像處理/DIP3E_Original_Images_CH01/Fig0121(b)(blown_ic_hr).tif",
+    "數位影像處理/DIP3E_Original_Images_CH01/Fig0121(a)(tungsten_flmt).tif",
+    "數位影像處理/Notes/10. 影像分割.md",
+    "數位影像處理/Notes/11. 表示與描述.md",
+    "數位影像處理/Notes/12. 物體辨識.md",
+    "數位影像處理/EXP_ChatGPT/GPT 數位影像處理中，二階導數.md",
+    "數位影像處理/Notes/3.  強度轉換與空間濾波.md",
+    "數位影像處理/Notes/1.  緒論 數位影像處理.md",
+    "數位影像處理/Notes/2.  數位影像基礎.md",
+    "數位影像處理/Notes/8.  影像壓縮.md",
+    "數位影像處理/Notes/9.  形態學影像處理.md",
+    "數位影像處理/Notes/7.  小波和多解析度處理.md",
+    "數位影像處理/Notes/6.  彩色影像處理.md",
+    "數位影像處理/Notes/5.  影像復原與重建.md",
+    "數位影像處理/Notes/第十二章　物體辨識.md",
+    "數位影像處理/Notes/第一章 緒論 數位影像處理.md"
+  ]
 }
