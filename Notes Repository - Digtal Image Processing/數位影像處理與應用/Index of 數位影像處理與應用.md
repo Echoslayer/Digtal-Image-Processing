@@ -1,3 +1,10 @@
+---
+title: Index of 數位影像處理與應用
+draft: false
+tags:
+  - Index
+---
+
 - 作者: 王旭正、翁麒耀、林家禎
 - 出版日期:2012-08-12
 

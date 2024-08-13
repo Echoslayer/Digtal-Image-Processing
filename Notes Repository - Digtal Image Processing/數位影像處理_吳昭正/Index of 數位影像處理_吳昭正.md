@@ -1,0 +1,90 @@
+---
+title: Index of 數位影像處理_吳昭正
+draft: false
+tags:
+  - Index
+---
+
+- 基本資訊
+	- 作者: 吳昭正
+
+- 單元四 頻率上濾波
+	- https://www.youtube.com/playlist?list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi
+
+- [Part 1 正餘弦波基礎介紹 週期與非週期性函數之基礎](https://www.youtube.com/watch?v=Ea4AM4j0F7g&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=1&pp=iAQB )
+    - 
+- [Part 2 複數概論 傅立葉級數](https://www.youtube.com/watch?v=mafgMkxfX5w&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=2&pp=iAQB )
+    - 
+- [Part 3 傅立葉轉換 連續與離散概念](https://www.youtube.com/watch?v=ihhKQrRPYCw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=3&pp=iAQB )
+    - 電腦轉換都是離散的，所以需要先將現實連續的信號轉為離散，處理後再轉為連續
+    - ![[Pasted image 20240813152836.png]]
+- [Part 4 迴旋積(卷積) 二維連續及離散傅立葉轉換對](https://www.youtube.com/watch?v=HbsCNndjy10&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=4&pp=iAQB )
+    - 基本上大多過濾操作都是經由卷積
+    - ![[Pasted image 20240813153604.png]]
+    - 影像資料至少是二維
+    - ![[Pasted image 20240813153843.png]]
+    - ![[Pasted image 20240813154003.png]]
+- [Part 5 二維傅立葉轉換性質](https://www.youtube.com/watch?v=jzdPaUOmuyM&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=5&pp=iAQB )
+	- ![[Pasted image 20240813154154.png]]
+	- ![[Pasted image 20240813154228.png]]
+	- ![[Pasted image 20240813154327.png]]
+	- ![[Pasted image 20240813154432.png]]
+	- ![[Pasted image 20240813154659.png]]
+- [Part 6 傅立葉頻譜與相位角](https://www.youtube.com/watch?v=DSHvCgLKjEQ&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=6&pp=iAQB )
+    - 相位角在訊號中較有意義，影像中則否
+    - ![[Pasted image 20240813155355.png]]
+    - 
+- [Part 7 數位影像的傅立葉轉換](https://www.youtube.com/watch?v=Bc9dG26Mpyg&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=7&pp=iAQB )
+    - 
+- [Part 8 影像頻率域濾波基礎](https://www.youtube.com/watch?v=zzXdiBTSS_8&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=8&pp=iAQB )
+    - ![[Pasted image 20240813162533.png]]
+- [Part 9 理想低通濾波器](https://www.youtube.com/watch?v=j3AJNt2P64k&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=9&pp=iAQB )
+    - ![[Pasted image 20240813162900.png]]
+    - ![[Pasted image 20240813163042.png]]
+    - 理想低通濾波器是不可能實現的，只能模擬
+    - 使用會造成水紋波的現象
+- [Part 10 巴特沃斯低通濾波器](https://www.youtube.com/watch?v=JVBQcJ56gWo&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=10&pp=iAQB)
+    - ![[Pasted image 20240813163501.png]]
+    - n值越大，衰減越大
+    - ![[Pasted image 20240813163534.png]]
+- [Part 11 高斯低通濾波器](https://www.youtube.com/watch?v=HwLxHgJvWgo&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=11&pp=iAQB)
+    - 最常用，最接近現實生活的濾波器
+    - ![[Pasted image 20240813163922.png]]
+    - ![[Pasted image 20240813163931.png]]
+    - 
+- [Part 12 三種低通濾波器比較](https://www.youtube.com/watch?v=nX00ghFwFqs&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=12&pp=iAQB)
+    - 
+- [Part 13 理想高通濾波器](https://www.youtube.com/watch?v=BJ14EyK0MBg&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=13&pp=iAQB)
+    - ![[Pasted image 20240813164317.png]]
+    - ![[Pasted image 20240813164346.png]]
+    - ![[Pasted image 20240813164403.png]]
+    - 
+- [Part 14 巴特沃斯高通濾波器](https://www.youtube.com/watch?v=08xsMvSxhVA&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=14&pp=iAQB)
+    - 
+- [Part 15 高斯高通濾波器](https://www.youtube.com/watch?v=32skkTePzqk&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=15&pp=iAQB)
+    - 
+- [Part 16 選擇性的濾波 頻率域中的拉普拉斯](https://www.youtube.com/watch?v=XIca8OnIs2w&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=16&pp=iAQB)
+    - ![[Pasted image 20240813164746.png]]
+    - ![[Pasted image 20240813164806.png]]
+    - ![[Pasted image 20240813165257.png]]
+    - ![[Pasted image 20240813165328.png]]
+- [Part 17 同態濾波](https://www.youtube.com/watch?v=lAB4Aq81DrI&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=17&pp=iAQB)
+    - ![[Pasted image 20240813165547.png]]
+    - ![[Pasted image 20240813165713.png]]
+    - ![[Pasted image 20240813165807.png]]
+    - ![[Pasted image 20240813165852.png]]
+    - 
+- [Part 18 實現](https://www.youtube.com/watch?v=pZo0nUdfxMU&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=18&pp=iAQB)
+    - 
+- [Part 19 模擬影像中雜訊](https://www.youtube.com/watch?v=BnrOq89mY70&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=19&pp=iAQB)
+    - 
+- [Part 20 影像空間域濾波(一)](https://www.youtube.com/watch?v=S_hNGNaQscU&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=20&pp=iAQB)
+    - 
+- [Part 21 影像空間域濾波(二)](https://www.youtube.com/watch?v=jstXgqtQiUs&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=21&pp=iAQB)
+    - 
+- [Part 23 影像頻率域濾波(二)](https://www.youtube.com/watch?v=EREq9qbc7hw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=22&pp=iAQB)
+    - 
+- [Part 24 影像頻率域濾波總結](https://www.youtube.com/watch?v=Yn-DuuaW7aw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=23&pp=iAQB)
+    - 
+- [Part 22 影像頻率域濾波(一)](https://www.youtube.com/watch?v=ZeesS4HSvjs&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=24&pp=iAQB)
+    - 

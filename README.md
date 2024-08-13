@@ -1,4 +1,4 @@
-# Digtal-Image-Processing
+# Digital-Image-Processing
 
 Introduce Books: 
 
@@ -8,7 +8,9 @@ Introduce Books:
 
   - [書籍網站連結](https://faculty.csie.ntust.edu.tw/~klchung/Prof_book_IPCV.htm)
 
-- 數位影像處理 Digtal Image Processing 
+- 數位影像處理 Digital Image Processing 
+  
+  - [書籍網站連結](https://www.imageprocessingplace.com/)
 
 - Jupyter Notebooks
 
@@ -29,6 +31,8 @@ Introduce Books:
   - region_segmentation
 
   - line 
+
+  - hybrid_image
 
 - Book Codes
 

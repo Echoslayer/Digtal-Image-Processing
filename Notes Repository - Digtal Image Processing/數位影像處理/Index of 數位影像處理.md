@@ -1,3 +1,10 @@
+---
+title: Index of 數位影像處理
+draft: false
+tags:
+  - Index
+---
+
 - 基本資訊
 	- 作者: Rafael C. Gonzalez, Richard E. Woods
 	- 版本: Third Edition
@@ -15,6 +22,8 @@
 [[10. 影像分割]]
 [[11. 表示與描述]]
 [[12. 物體辨識]]
+
+[[Tutorials 數位影像處理]]
 
 ## 第五章　影像復原與重建
 - Things which we see are not by themselves what we see. It remains completely unknown to us what the objects may be by themselves and apart from the receptivity of our senses. We know nothing but our manner of perceiving them. (Immanuel Kant)
