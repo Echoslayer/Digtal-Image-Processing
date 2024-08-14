@@ -1,6 +1,6 @@
 # Digital-Image-Processing
 
-[Digtal Garden](https://echoslayer.github.io/Digital-Image-Processing/) 
+Website: [Digtal Garden](https://echoslayer.github.io/Digital-Image-Processing/) 
 
 Introduce Books: 
 

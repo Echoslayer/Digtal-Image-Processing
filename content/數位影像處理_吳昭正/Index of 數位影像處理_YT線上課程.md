@@ -8,8 +8,9 @@ tags:
 - 基本資訊
 	- 作者: 吳昭正
 
-- 單元四 頻率上濾波
-	- https://www.youtube.com/playlist?list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi
+- 課程連結
+	- [總課程](https://youtube.com/playlist?list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&si=OOycEbHSq-qcditP)
+	- [單元四 頻率上濾波](https://www.youtube.com/playlist?list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi)
 
 - [Part 1 正餘弦波基礎介紹 週期與非週期性函數之基礎](https://www.youtube.com/watch?v=Ea4AM4j0F7g&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=1&pp=iAQB )
 - [Part 2 複數概論 傅立葉級數](https://www.youtube.com/watch?v=mafgMkxfX5w&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=2&pp=iAQB )
@@ -69,9 +70,29 @@ tags:
     - ![[Pasted image 20240813165852.png]]
     - 
 - [Part 18 實現](https://www.youtube.com/watch?v=pZo0nUdfxMU&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=18&pp=iAQB)
+	- ![[Pasted image 20240814143026.png]]
+	- ![[Pasted image 20240814143218.png]]
+	- ![[Pasted image 20240814143309.png]]
 - [Part 19 模擬影像中雜訊](https://www.youtube.com/watch?v=BnrOq89mY70&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=19&pp=iAQB)
+	- 胡椒鹽雜訊
+	- 高斯雜訊
+	- 頻率域干擾
 - [Part 20 影像空間域濾波(一)](https://www.youtube.com/watch?v=S_hNGNaQscU&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=20&pp=iAQB)
+	- 平均濾波器: 變得模糊，對於頻率域干擾無效
+	- 中值濾波器: 對胡椒鹽雜訊非常有效，但對高斯濾波器無效，對於頻率域干擾無效
 - [Part 21 影像空間域濾波(二)](https://www.youtube.com/watch?v=jstXgqtQiUs&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=21&pp=iAQB)
-- [Part 23 影像頻率域濾波(二)](https://www.youtube.com/watch?v=EREq9qbc7hw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=22&pp=iAQB)
-- [Part 24 影像頻率域濾波總結](https://www.youtube.com/watch?v=Yn-DuuaW7aw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=23&pp=iAQB)
+	- 拉普拉斯濾波器: 二次微分，雜訊被強化，無法解決頻率域干擾
+	- Sobel濾波器: 一次微分，雜訊被強化(比拉普拉斯更強)，無法解決頻率域干擾
 - [Part 22 影像頻率域濾波(一)](https://www.youtube.com/watch?v=ZeesS4HSvjs&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=24&pp=iAQB)
+	- 理想低通濾波器: 對於空間域的雜訊無法消除，但可以消除頻率域干擾
+	- 高斯低通濾波器: 對於空間域的雜訊無法消除，但可以消除頻率域干擾
+- [Part 23 影像頻率域濾波(二)](https://www.youtube.com/watch?v=EREq9qbc7hw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=22&pp=iAQB)
+	- 理想高通濾波器: 對於空間域的雜訊會被增強，頻率域干擾也會被增強
+	- 高斯高通濾波器: 對於空間域的雜訊會被增強，頻率域干擾也會被增強
+- [Part 24 影像頻率域濾波總結](https://www.youtube.com/watch?v=Yn-DuuaW7aw&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=23&pp=iAQB)
+	- ![[Pasted image 20240814150200.png]]
+	- ![[Pasted image 20240814150231.png]]
+	- ![[Pasted image 20240814150253.png]]
+	- ![[Pasted image 20240814150311.png]]
+	- ![[Pasted image 20240814150338.png]]
+	- ![[Pasted image 20240814150356.png]]
