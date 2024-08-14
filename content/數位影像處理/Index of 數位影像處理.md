@@ -8,6 +8,7 @@ tags:
 - 基本資訊
 	- 作者: Rafael C. Gonzalez, Richard E. Woods
 	- 版本: Third Edition
+	- [書籍網站連結](https://www.imageprocessingplace.com/)
 
 --- 
 ## 各章節筆記

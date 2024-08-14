@@ -13,25 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/數位影像處理/Notes/4.  頻率域上的濾波.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "3a46047afd43cbe6",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "f512184378488854",
+            "id": "ade1f6f585324e13",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf"
+                "file": "content/Code/書籍自帶Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3aa1891b4803e644",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/數位影像處理/Index of 數位影像處理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/數位影像處理/Notes/4.  頻率域上的濾波.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/數位影像處理/Notes/4.  頻率域上的濾波.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/數位影像處理/Notes/4.  頻率域上的濾波.md"
+                "file": "README.md"
               }
             }
           },
@@ -176,18 +184,30 @@
   },
   "active": "460e45520a5ffbf0",
   "lastOpenFiles": [
-    "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
-    "content/數位影像處理/Notes/4.  頻率域上的濾波.md",
-    "content/數位影像處理/Index of 數位影像處理.md",
-    "content/數位影像處理/Notes/12. 物體辨識.md",
+    "content/Code/書籍自帶Code.md",
+    "README.md",
+    "content/Code/自實現Code.md",
+    "CODE_OF_CONDUCT.md",
+    "public/Code/index.html",
+    "public/Code/書籍自帶Code.html",
+    "public/Code",
+    "content/Code",
     "content/index.md",
+    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "content/數位影像處理/Notes/5.  影像復原與重建.md",
+    "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "content/數位影像處理/Notes/4.  頻率域上的濾波.md",
+    "content/數位影像處理/Notes/Tutorials 數位影像處理.md",
+    "content/數位影像處理/Notes/1.  緒論 數位影像處理.md",
+    "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
+    "content/數位影像處理/Notes/12. 物體辨識.md",
     "content/數位影像處理/Notes/11. 表示與描述.md",
     "content/數位影像處理/Notes/10. 影像分割.md",
     "content/數位影像處理/Notes/9.  形態學影像處理.md",
     "content/數位影像處理/Notes/8.  影像壓縮.md",
     "content/數位影像處理/Notes/6.  彩色影像處理.md",
     "content/數位影像處理/Notes/7.  小波和多解析度處理.md",
-    "content/數位影像處理/Notes/5.  影像復原與重建.md",
     "content/數位影像處理_吳昭正/Index of 數位影像處理_YT線上課程.md",
     "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150356.png",
     "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150338.png",
@@ -199,27 +219,15 @@
     "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143218.png",
     "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143026.png",
     "content/數位影像處理_吳昭正/Images/Pasted image 20240814150200.png",
-    "README.md",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-    "content/數位影像處理/Notes/1.  緒論 數位影像處理.md",
     "public/數位影像處理_吳昭正/Index-of-數位影像處理_YT線上課程.html",
-    "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
     "content/筆記總目錄.md",
     "public/筆記總目錄---複製.html",
     "content/筆記總目錄 - 複製.md",
     "public/筆記總目錄.html",
-    "CODE_OF_CONDUCT.md",
     "content/desktop.ini",
     "數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
     "數位影像處理與應用/Index of 數位影像處理與應用.md",
     "Index.md",
-    "templates/Index template.md",
-    "影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-    "數位影像處理/Index of 數位影像處理.md",
-    "templates",
-    "數位影像處理_吳昭正/Images",
-    "數位影像處理_吳昭正",
-    "數位影像處理/PDF/DIP_3E_Student_Solutions.pdf",
-    "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(d)(lung).tif"
+    "templates"
   ]
 }
