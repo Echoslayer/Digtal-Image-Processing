@@ -25,25 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Code/書籍自帶Code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aa1891b4803e644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/數位影像處理/Index of 數位影像處理.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,18 +171,19 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "460e45520a5ffbf0",
+  "active": "ade1f6f585324e13",
   "lastOpenFiles": [
-    "content/Code/書籍自帶Code.md",
+    "content/其他/自實現Code.md",
+    "content/其他/書籍自帶Code.md",
     "README.md",
-    "content/Code/自實現Code.md",
+    "content/其他/實驗室PPT對應.md",
+    "content/index.md",
+    "content/數位影像處理/Index of 數位影像處理.md",
     "CODE_OF_CONDUCT.md",
     "public/Code/index.html",
     "public/Code/書籍自帶Code.html",
     "public/Code",
-    "content/Code",
-    "content/index.md",
-    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/其他",
     "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "content/數位影像處理/Notes/5.  影像復原與重建.md",
     "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
