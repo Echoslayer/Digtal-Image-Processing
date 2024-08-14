@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "content/index.md"
               }
             }
           },
@@ -173,9 +173,14 @@
   },
   "active": "ade1f6f585324e13",
   "lastOpenFiles": [
+    "README.md",
+    "public/其他/自實現Code.html",
+    "public/其他/書籍自帶Code.html",
+    "public/其他/實驗室PPT對應.html",
+    "public/其他/index.html",
+    "public/其他",
     "content/其他/自實現Code.md",
     "content/其他/書籍自帶Code.md",
-    "README.md",
     "content/其他/實驗室PPT對應.md",
     "content/index.md",
     "content/數位影像處理/Index of 數位影像處理.md",
@@ -209,15 +214,9 @@
     "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143218.png",
     "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143026.png",
     "content/數位影像處理_吳昭正/Images/Pasted image 20240814150200.png",
-    "public/數位影像處理_吳昭正/Index-of-數位影像處理_YT線上課程.html",
     "content/筆記總目錄.md",
-    "public/筆記總目錄---複製.html",
     "content/筆記總目錄 - 複製.md",
-    "public/筆記總目錄.html",
-    "content/desktop.ini",
     "數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
-    "數位影像處理與應用/Index of 數位影像處理與應用.md",
-    "Index.md",
-    "templates"
+    "數位影像處理與應用/Index of 數位影像處理與應用.md"
   ]
 }
