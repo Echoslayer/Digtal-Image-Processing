@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b0c6184baac2211e",
+        "id": "bdab1c896eb7fa25",
         "type": "tabs",
         "children": [
           {
-            "id": "7399881840e0e3c6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "6596c29a77a2470a",
+            "id": "460e45520a5ffbf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
+                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
+                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
+                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md"
+                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md"
               }
             }
           },
@@ -169,8 +158,17 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "6596c29a77a2470a",
+  "active": "460e45520a5ffbf0",
   "lastOpenFiles": [
+    "content/筆記總目錄.md",
+    "content/index.md",
+    "public/筆記總目錄---複製.html",
+    "content/筆記總目錄 - 複製.md",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "content/數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
+    "public/筆記總目錄.html",
+    "CODE_OF_CONDUCT.md",
     "content/desktop.ini",
     "數位影像處理_吳昭正/Images/Pasted image 20240813162533.png",
     "數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md",
@@ -200,9 +198,6 @@
     "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(d)(lung).tif",
     "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(c)(skull).tif",
     "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(b)(fractal-moonscape).tif",
-    "數位影像處理/DIP3E_Original_Images_CH01/Fig0122(a)(fractal-iris).tif",
-    "數位影像處理/DIP3E_Original_Images_CH01/Fig0121(b)(blown_ic_hr).tif",
-    "數位影像處理/DIP3E_Original_Images_CH01/Fig0121(a)(tungsten_flmt).tif",
     "數位影像處理/Notes/10. 影像分割.md",
     "數位影像處理/Notes/11. 表示與描述.md",
     "數位影像處理/Notes/12. 物體辨識.md",
@@ -210,12 +205,6 @@
     "數位影像處理/Notes/3.  強度轉換與空間濾波.md",
     "數位影像處理/Notes/1.  緒論 數位影像處理.md",
     "數位影像處理/Notes/2.  數位影像基礎.md",
-    "數位影像處理/Notes/8.  影像壓縮.md",
-    "數位影像處理/Notes/9.  形態學影像處理.md",
-    "數位影像處理/Notes/7.  小波和多解析度處理.md",
-    "數位影像處理/Notes/6.  彩色影像處理.md",
-    "數位影像處理/Notes/5.  影像復原與重建.md",
-    "數位影像處理/Notes/第十二章　物體辨識.md",
-    "數位影像處理/Notes/第一章 緒論 數位影像處理.md"
+    "數位影像處理/Notes/8.  影像壓縮.md"
   ]
 }
