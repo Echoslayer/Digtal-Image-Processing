@@ -5,10 +5,9 @@
 	- Fourier Transform Example 
 	- Smooth Methods
 	- Typology Methods 
-	 
 	- edge_detection
 	- threshold
 	- region_segmentation
 	- line 
 	- hybrid_image
-	- 
+	- noices
