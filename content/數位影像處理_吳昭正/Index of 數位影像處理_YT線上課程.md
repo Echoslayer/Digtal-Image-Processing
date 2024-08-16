@@ -1,5 +1,5 @@
 ---
-title: Index of 數位影像處理_吳昭正
+title: Index of 數位影像處理_YT線上課程
 draft: false
 tags:
   - Index

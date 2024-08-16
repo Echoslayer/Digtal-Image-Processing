@@ -10,4 +10,4 @@
 	- region_segmentation
 	- line 
 	- hybrid_image
-	- noices
+	- fourier_and_histogram

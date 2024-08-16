@@ -28,3 +28,15 @@ tags:
 
 ## PPT對應
 [[實驗室PPT對應]]
+
+## Other Resorces
+### Gihub Repos
+#### DIPs
+- https://github.com/MAhaitao999/digital_image_processing
+- **[dipum-toolbox](https://github.com/dipum/dipum-toolbox)**
+- [Digital-Image-Processing](https://github.com/webzhuce07/Digital-Image-Processing)
+
+#### Others
+- **[Digital-image-processing-and-application](https://github.com/Fafa-DL/Digital-image-processing-and-application)**
+- [Introduction-to-Digital-Image-Processing](https://github.com/Wilson-ZheLin/Introduction-to-Digital-Image-Processing)
+- 
