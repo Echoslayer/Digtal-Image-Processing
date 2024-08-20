@@ -1,3 +1,8 @@
+# Drive file
+.DS_Store
+desktop.ini
+Private_Data/
+
 node_modules/
 public
 prof
@@ -6,10 +11,6 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-
-# Drive file
-.DS_Store
-desktop.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

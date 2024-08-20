@@ -1,50 +1,18 @@
 {
   "main": {
-    "id": "40b33080a3c4e2d9",
+    "id": "bd908fe2cd58261a",
     "type": "split",
     "children": [
       {
-        "id": "bdab1c896eb7fa25",
+        "id": "d3ad3b95e222a38d",
         "type": "tabs",
         "children": [
           {
-            "id": "1160a427ab4de574",
+            "id": "c2368b8a50c297bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ade1f6f585324e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/數位影像處理/Notes/5.  影像復原與重建.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "029fa9d6889b608c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d1c647651c4d3336",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -53,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "37af3f7dc9b001b6",
+    "id": "646a8e3b1353b4ec",
     "type": "split",
     "children": [
       {
-        "id": "40f938620003ad08",
+        "id": "774a77a195b55d84",
         "type": "tabs",
         "children": [
           {
-            "id": "e55a3944e0532ffd",
+            "id": "435f23ab97ad5209",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,7 +39,7 @@
             }
           },
           {
-            "id": "009362747b9c71a2",
+            "id": "85267c7c0235efdc",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -86,7 +54,7 @@
             }
           },
           {
-            "id": "e241ea2a305951fd",
+            "id": "9d5921ac0338ff69",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 300
   },
   "right": {
-    "id": "679d4c70e779785e",
+    "id": "e43feada86755505",
     "type": "split",
     "children": [
       {
-        "id": "5d9aeebf247c6246",
+        "id": "68a10dfa90efa192",
         "type": "tabs",
         "children": [
           {
-            "id": "101856a85165efb9",
+            "id": "e1f225c2d201628f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,19 +92,18 @@
             }
           },
           {
-            "id": "4f7591f137fc7a3c",
+            "id": "5de142092f7c74c3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f125114f7f012105",
+            "id": "8448ba9217f05eda",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,17 +114,7 @@
             }
           },
           {
-            "id": "705faed78e128c26",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "content/index.md"
-              }
-            }
-          },
-          {
-            "id": "91722dff393718f8",
+            "id": "ff26554adbafa92a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -167,6 +123,14 @@
                 "showSearch": false,
                 "searchQuery": ""
               }
+            }
+          },
+          {
+            "id": "442f023f539ca252",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           }
         ]
@@ -186,52 +150,9 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "1160a427ab4de574",
+  "active": "c2368b8a50c297bf",
   "lastOpenFiles": [
-    "content/數位影像處理/Index of 數位影像處理.md",
-    "content/數位影像處理/Notes/5.  影像復原與重建.md",
-    "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
-    "content/數位影像處理_吳昭正/Index of 數位影像處理_YT線上課程.md",
-    "content/index.md",
-    "content/其他/自實現Code.md",
-    "content/數位影像處理/Notes/3.  強度轉換與空間濾波.md",
-    "Code/Notebooks/fourier_and_histogram.ipynb",
-    "Code/Notebooks/noice.ipynb",
-    "README.md",
-    "content/其他/實驗室PPT對應.md",
-    "public/其他/自實現Code.html",
-    "public/其他/書籍自帶Code.html",
-    "public/其他/實驗室PPT對應.html",
-    "public/其他/index.html",
-    "public/其他",
-    "content/其他/書籍自帶Code.md",
-    "CODE_OF_CONDUCT.md",
-    "public/Code/index.html",
-    "public/Code/書籍自帶Code.html",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-    "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
-    "content/數位影像處理/Notes/4.  頻率域上的濾波.md",
-    "content/數位影像處理/Notes/Tutorials 數位影像處理.md",
-    "content/數位影像處理/Notes/1.  緒論 數位影像處理.md",
-    "content/數位影像處理/Notes/12. 物體辨識.md",
-    "content/數位影像處理/Notes/11. 表示與描述.md",
-    "content/數位影像處理/Notes/10. 影像分割.md",
-    "content/數位影像處理/Notes/9.  形態學影像處理.md",
-    "content/數位影像處理/Notes/8.  影像壓縮.md",
-    "content/數位影像處理/Notes/6.  彩色影像處理.md",
-    "content/數位影像處理/Notes/7.  小波和多解析度處理.md",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150356.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150338.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150311.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150253.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150231.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814150200.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143309.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143218.png",
-    "public/數位影像處理_吳昭正/Images/Pasted-image-20240814143026.png",
-    "content/數位影像處理_吳昭正/Images/Pasted image 20240814150200.png",
-    "content/筆記總目錄.md",
-    "content/筆記總目錄 - 複製.md",
-    "數位影像處理_吳昭正/Index of 數位影像處理_吳昭正.md"
+    "Code/Resources/Private_Data",
+    "Code/Resources/Secrect_Data"
   ]
 }
