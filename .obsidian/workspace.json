@@ -11,8 +11,24 @@
             "id": "c2368b8a50c297bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/其他/自實現Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c7262212fc56419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/其他/自實現Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/其他/自實現Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/其他/自實現Code.md"
+              }
             }
           }
         ]
@@ -152,6 +172,9 @@
   },
   "active": "c2368b8a50c297bf",
   "lastOpenFiles": [
+    "content/影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "Code/Notebooks/filters.ipynb",
     "Code/Resources/Private_Data/line_light_ok_6cm.tif",
     "Code/Resources/Private_Data/條形光有偏振6cm copy.tif",
     "Code/Resources/Private_Data/line_light_no_p.tif",
@@ -159,9 +182,6 @@
     "Code/Resources/Private_Data/偏振片經二次最暗有遮光.tif",
     "Code/Resources/Private_Data/偏振片經二次最暗.tif",
     "Code/Resources/Private_Data/條型光無偏振.tif",
-    "Code/Resources/Private_Data/條形光有偏振6cm.tif",
-    "Code/Resources/Private_Data/條形光有偏振4cm.tif",
-    "Code/Resources/Private_Data/偏振片經三次最暗.tif",
-    "Code/Resources/Private_Data/偏振片經三次最亮.tif"
+    "Code/Resources/Private_Data/條形光有偏振6cm.tif"
   ]
 }

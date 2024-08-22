@@ -11,3 +11,5 @@
 	- line 
 	- hybrid_image
 	- fourier_and_histogram
+	- filter
+	- aoi
