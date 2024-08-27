@@ -2,7 +2,7 @@
 .DS_Store
 desktop.ini
 Private_Data/
-template/
+Resources/template/
 
 node_modules/
 public
