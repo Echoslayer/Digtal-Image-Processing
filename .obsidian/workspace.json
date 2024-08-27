@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/其他/自實現Code.md",
+                "file": "content/實驗室AOI研究/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/其他/自實現Code.md",
+                "file": "content/實驗室AOI研究/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/其他/自實現Code.md",
+                "file": "content/實驗室AOI研究/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/其他/自實現Code.md"
+                "file": "content/實驗室AOI研究/未命名.md"
               }
             }
           }
@@ -172,6 +172,11 @@
   },
   "active": "c2368b8a50c297bf",
   "lastOpenFiles": [
+    "content/其他/自實現Code.md",
+    "content/實驗室AOI研究/未命名.md",
+    "content/實驗室AOI研究",
+    "Code/Resources/outputs/pdf/2024-08-27/2024-08-27_line_light_no_p_aoireport.pdf",
+    "Code/Resources/outputs/pdf/2024-08-27",
     "content/影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
     "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "Code/Notebooks/filters.ipynb",
@@ -179,9 +184,6 @@
     "Code/Resources/Private_Data/條形光有偏振6cm copy.tif",
     "Code/Resources/Private_Data/line_light_no_p.tif",
     "Code/Resources/Private_Data/條型光無偏振 copy.tif",
-    "Code/Resources/Private_Data/偏振片經二次最暗有遮光.tif",
-    "Code/Resources/Private_Data/偏振片經二次最暗.tif",
-    "Code/Resources/Private_Data/條型光無偏振.tif",
-    "Code/Resources/Private_Data/條形光有偏振6cm.tif"
+    "Code/Resources/Private_Data/偏振片經二次最暗有遮光.tif"
   ]
 }
