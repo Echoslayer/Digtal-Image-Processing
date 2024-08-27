@@ -22,7 +22,7 @@ tags:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lsh2SmAgHoQfvQdK&amp;list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 研究筆記
-- [[Inde of 實驗室AOI研究]]
+- [[Index of 實驗室AOI研究]]
 
 ## Code Include
 - [[書籍自帶Code]]

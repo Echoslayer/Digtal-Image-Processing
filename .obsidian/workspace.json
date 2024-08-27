@@ -14,14 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "80f5495dfc210f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/其他/實驗室PPT對應.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
+                "file": "content/其他/實驗室PPT對應.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
+                "file": "content/其他/實驗室PPT對應.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md"
+                "file": "content/其他/實驗室PPT對應.md"
               }
             }
           }
@@ -160,10 +173,13 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "577163960c529d67",
+  "active": "80f5495dfc210f44",
   "lastOpenFiles": [
+    "content/其他/書籍自帶Code.md",
+    "content/其他/自實現Code.md",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+    "content/其他/實驗室PPT對應.md",
     "content/實驗室AOI研究/Notes/2024-08-27 filter研究.pdf",
-    "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
     "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
     "content/實驗室AOI研究/Notes/filter more about aoi.md",
     "content/實驗室AOI研究/Notes/all filters.md",
@@ -182,7 +198,6 @@
     "content/實驗室AOI研究/Notes",
     "content/數位影像處理/Index of 數位影像處理.md",
     "content/index.md",
-    "content/其他/自實現Code.md",
     "content/實驗室AOI研究",
     "Code/Resources/outputs/pdf/2024-08-27/2024-08-27_line_light_no_p_aoireport.pdf",
     "Code/Resources/outputs/pdf/2024-08-27",

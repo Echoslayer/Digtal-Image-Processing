@@ -1,5 +1,5 @@
 ---
-title: Inde of 實驗室AOI研究
+title: Index of 實驗室AOI研究
 draft: false
 tags:
   - Index
