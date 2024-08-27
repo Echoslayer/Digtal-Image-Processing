@@ -8,27 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2368b8a50c297bf",
+            "id": "577163960c529d67",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/實驗室AOI研究/未命名.md",
+                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9c7262212fc56419",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -97,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/實驗室AOI研究/未命名.md",
+                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/實驗室AOI研究/未命名.md",
+                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/實驗室AOI研究/未命名.md"
+                "file": "content/實驗室AOI研究/Inde of 實驗室AOI研究.md"
               }
             }
           }
@@ -170,20 +160,36 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "c2368b8a50c297bf",
+  "active": "577163960c529d67",
   "lastOpenFiles": [
+    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.pdf",
+    "content/實驗室AOI研究/Inde of 實驗室AOI研究.md",
+    "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
+    "content/實驗室AOI研究/Notes/filter more about aoi.md",
+    "content/實驗室AOI研究/Notes/all filters.md",
+    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.md",
+    "Pasted image 20240827163129.png",
+    "Pasted image 20240827163119.png",
+    "Pasted image 20240827163114.png",
+    "Pasted image 20240827163056.png",
+    "Pasted image 20240827163051.png",
+    "Pasted image 20240827163032.png",
+    "Pasted image 20240827163014.png",
+    "Pasted image 20240827163008.png",
+    "Pasted image 20240827162952.png",
+    "Pasted image 20240827162947.png",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "content/實驗室AOI研究/Notes",
+    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/index.md",
     "content/其他/自實現Code.md",
-    "content/實驗室AOI研究/未命名.md",
     "content/實驗室AOI研究",
     "Code/Resources/outputs/pdf/2024-08-27/2024-08-27_line_light_no_p_aoireport.pdf",
     "Code/Resources/outputs/pdf/2024-08-27",
     "content/影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "Code/Notebooks/filters.ipynb",
     "Code/Resources/Private_Data/line_light_ok_6cm.tif",
     "Code/Resources/Private_Data/條形光有偏振6cm copy.tif",
-    "Code/Resources/Private_Data/line_light_no_p.tif",
-    "Code/Resources/Private_Data/條型光無偏振 copy.tif",
-    "Code/Resources/Private_Data/偏振片經二次最暗有遮光.tif"
+    "Code/Resources/Private_Data/line_light_no_p.tif"
   ]
 }

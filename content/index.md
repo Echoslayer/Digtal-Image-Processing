@@ -21,10 +21,12 @@ tags:
 - [[Index of 數位影像處理_YT線上課程]]<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lsh2SmAgHoQfvQdK&amp;list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Code Include
-[[書籍自帶Code]]
+### 研究筆記
+- [[Inde of 實驗室AOI研究]]
 
-[[自實現Code]]
+## Code Include
+- [[書籍自帶Code]]
+- [[自實現Code]]
 
 ## PPT對應
 [[實驗室PPT對應]]
@@ -39,4 +41,6 @@ tags:
 #### Others
 - **[Digital-image-processing-and-application](https://github.com/Fafa-DL/Digital-image-processing-and-application)**
 - [Introduction-to-Digital-Image-Processing](https://github.com/Wilson-ZheLin/Introduction-to-Digital-Image-Processing)
-- 
+
+## 其他筆記
+### [Financial Research](https://echoslayer.github.io/Financial-Research/)
