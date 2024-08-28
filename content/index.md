@@ -19,7 +19,8 @@ tags:
 
 ### Youtube 筆記
 - [[Index of 數位影像處理_YT線上課程]]<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lsh2SmAgHoQfvQdK&amp;list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<img src="https://yt3.ggpht.com/ytc/AIdro_mkOYLduOXRYz2w-PGZIaXi4CM1EERKy3bFrGQB_NzR1pqY=s48-c-k-c0x00ffffff-no-rj" style="width:5rem">
+
 
 ### 研究筆記
 - [[Index of 實驗室AOI研究]]

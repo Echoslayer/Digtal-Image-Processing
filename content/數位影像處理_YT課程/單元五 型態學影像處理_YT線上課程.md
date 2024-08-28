@@ -1,0 +1,89 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=LNeDdgYaMkKErQkL&amp;list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- 基本資訊
+	- 作者: 黃正民
+
+- [Part 1 型態學影像處理的基本概念](https://www.youtube.com/watch?v=amTS12QD6YQ&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=51&pp=iAQB)
+	- 型態學的處理可以用於 
+		- 簡化影像資料 
+		- 保留重要的形狀特性
+		- 消除雜訊(不相關的部分)
+	- 灰階影像 --> 二值化影像 --> 型態學 --> 連通元件
+	- ![[Pasted image 20240828154900.png]]
+- [Part 2 集合理論的基本概念](https://www.youtube.com/watch?v=uSyEnWckD5Y&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=52&pp=iAQB)
+- [Part 3 膨脹處理(上)](https://www.youtube.com/watch?v=x3oP9z7hIZA&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=53&pp=iAQB)
+	- ![[Pasted image 20240828155904.png]]
+	- ![[Pasted image 20240828160030.png]]
+	- ![[Pasted image 20240828160329.png]]
+- [Part 4 膨脹處理(下)](https://www.youtube.com/watch?v=7qACZyxlT1g&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=54&pp=iAQB)
+	- 滿足交換律
+		- A ⊕ B == B ⊕ A
+	- 滿足結合律
+		- (A ⊕ B ) ⊕ C == A ⊕ (B ⊕ C)
+	- 位移不變性
+		- A ⊕ B_z == (A ⊕ B )_z
+	- 應用
+		- 文字辨識
+- [Part 5 侵蝕處理(上)](https://www.youtube.com/watch?v=rDvOaL9QyVY&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=55&pp=iAQB)
+	- ![[Pasted image 20240828162410.png]]
+	- ![[Pasted image 20240828162531.png]]
+	- ![[Pasted image 20240828162728.png]]
+	- ![[Pasted image 20240828162814.png]]
+- [Part 6 侵蝕處理(下)](https://www.youtube.com/watch?v=gAgFKg3TBak&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=56&pp=iAQB)
+	- ![[Pasted image 20240828163329.png]]
+	- 對前景(白色)做侵蝕，就同於對背景(黑色)做膨脹
+	- A ⊝ B ⊝ C == A ⊝ (B ⊕ C)
+- [Part 7 斷開與閉合](https://www.youtube.com/watch?v=AM10uJeb1YU&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=57&pp=iAQB)
+	- 斷開: 先侵蝕再膨脹
+	- 閉合: 先膨脹再侵蝕
+	- ![[Pasted image 20240828164133.png]]
+	- ![[Pasted image 20240828164241.png]]
+	- ![[Pasted image 20240828164412.png]]
+	- ![[Pasted image 20240828164502.png]]
+- [Part 8 型態學影像處理的變化(上)](https://www.youtube.com/watch?v=orkOo5n6zG0&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=58&pp=iAQB)
+	- ![[Pasted image 20240828165258.png]]
+	- ![[Pasted image 20240828165340.png]]
+- [Part 9 型態學影像處理的變化(下)](https://www.youtube.com/watch?v=HnuSh3JKi10&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=59&pp=iAQB)
+	- ![[Pasted image 20240828190852.png]]
+	- ![[Pasted image 20240828191012.png]]
+	- ![[Pasted image 20240828191135.png]]
+	- ![[Pasted image 20240828191252.png]]
+	- ![[Pasted image 20240828191350.png]]
+	- ![[Pasted image 20240828191545.png]]
+	- ![[Pasted image 20240828191617.png]]
+- [Part 10 型態學影像處理的延伸應用(上)](https://www.youtube.com/watch?v=mp8gcfuV8i0&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=60&pp=iAQB)
+	- 輪胎胎紋影像檢測
+		- ![[Pasted image 20240828191911.png]]
+		- ![[Pasted image 20240828192004.png]]
+		- ![[Pasted image 20240828192049.png]]
+	- 車牌影像偵測 
+		- 在固定環境下,車牌辨識的 成果已經非常完善 
+		- 在環境較多干擾的情況·車 牌辨識的成功率會大幅降低
+		- ![[Pasted image 20240828192339.png]]
+		- ![[Pasted image 20240828192419.png]]
+		- ![[Pasted image 20240828192503.png]]
+- [Part 11 型態學影像處理的延伸應用(下)](https://www.youtube.com/watch?v=jNAvFQpoj1E&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=61&pp=iAQB)
+	- 車道標線影像偵測 
+		- 為了彌補路面或車道標線反光、 陰影遮蔽等造成偵測的圖像破碎, 使部分車道線無法成功找到的問題 
+		- 使用形態學去除雜訊干擾、填補車道線破碎的部分
+		- ![[Pasted image 20240828192844.png]]
+		- ![[Pasted image 20240828192906.png]]
+		- ![[Pasted image 20240828193332.png]]
+	- 行人影像追蹤 
+		- 追蹤行人目標時, 一般彩色影像會受到部分遮蔽與相似目標物之環境的影響 
+		- 利用熱像儀影像來偵測出所要追蹤行人的溫度
+		- 以型態學修補熱像儀影像二值化後的行人區域
+- [Part 12 灰階影像的型態學影像處理](https://www.youtube.com/watch?v=jMsqJlPVjIw&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=62&pp=iAQB)
+	- ![[Pasted image 20240828194017.png]]
+	- ![[Pasted image 20240828194550.png]]
+	- 斷開可以當作將球型滾過下緣區域，無法塞入之部分侵蝕掉
+	- 閉合可以當作將球型滾過上緣區域，無法塞入之部分填補
+	- ![[Pasted image 20240828194902.png]]
+	- ![[Pasted image 20240828194947.png]]
+	- ![[Pasted image 20240828194959.png]]
+	- 車輛顏色分類 
+		- 分析車輛影像與其背景間的關聯,以及車輛顏色分類資訊, 作為監控特徵,增加車輛辨識 的可靠度
+		- 使用灰階影像的型態學減少車 體反光、增強暗處的對比
+		- ![[Pasted image 20240828195141.png]]
+		- ![[Pasted image 20240828195318.png]]
+		- 暗處區域分割經形態學後較好

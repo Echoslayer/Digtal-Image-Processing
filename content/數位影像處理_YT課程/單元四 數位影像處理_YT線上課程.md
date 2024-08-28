@@ -1,9 +1,3 @@
----
-title: Index of 數位影像處理_YT線上課程
-draft: false
-tags:
-  - Index
----
 
 - 基本資訊
 	- 作者: 吳昭正
@@ -11,6 +5,8 @@ tags:
 - 課程連結
 	- [總課程](https://youtube.com/playlist?list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&si=OOycEbHSq-qcditP)
 	- [單元四 頻率上濾波](https://www.youtube.com/playlist?list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=lsh2SmAgHoQfvQdK&amp;list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - [Part 1 正餘弦波基礎介紹 週期與非週期性函數之基礎](https://www.youtube.com/watch?v=Ea4AM4j0F7g&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=1&pp=iAQB )
 - [Part 2 複數概論 傅立葉級數](https://www.youtube.com/watch?v=mafgMkxfX5w&list=PLI6pJZaOCtF2_D32S1BSI7fMcBuxTofPi&index=2&pp=iAQB )
