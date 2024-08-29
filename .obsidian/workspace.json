@@ -26,11 +26,9 @@
             "id": "9be883f044104372",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
-                "mode": "source",
-                "source": false
+                "file": "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191247.png"
               }
             }
           },
@@ -130,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+                "file": "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191247.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+                "file": "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191247.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md"
+                "file": "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191247.png"
               }
             }
           }
@@ -203,15 +201,15 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "9be883f044104372",
+  "active": "435f23ab97ad5209",
   "lastOpenFiles": [
-    "Pasted image 20240829191606.png",
-    "Pasted image 20240829191509.png",
-    "Pasted image 20240829191439.png",
-    "Pasted image 20240829191336.png",
-    "Pasted image 20240829191247.png",
-    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829161257.png",
     "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191606.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191509.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191439.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191336.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829191247.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829161257.png",
     "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
     "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829161225.png",
@@ -220,7 +218,6 @@
     "content/數位影像處理/Notes/10. 影像分割.md",
     "content/數位影像處理_YT課程/Images/Pasted image 20240813153843.png",
     "content/數位影像處理_YT課程/Images/Pasted image 20240813154003.png",
-    "content/數位影像處理_YT課程/Images/CH4/Pasted image 20240814143309.png",
     "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Images/CH7",
     "content/數位影像處理_YT課程/Images/CH5 - 複製",
