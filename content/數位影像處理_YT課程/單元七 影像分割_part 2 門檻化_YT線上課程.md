@@ -67,7 +67,24 @@
 		- ![[Pasted image 20240829161225.png]]
 		- ![[Pasted image 20240829161257.png]]
 - [Part 10 多重門檻與多變數門檻化](https://www.youtube.com/watch?v=Snpfp16nt3Y&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=84&pp=iAQB)
-	- 
+	- ![[Pasted image 20240829191247.png]]
+	- ![[Pasted image 20240829191336.png]]
+	- 演算法
+		- ![[Pasted image 20240829191439.png]]
+		- ![[Pasted image 20240829191509.png]]
+	- 例子
+		- ![[Pasted image 20240829191606.png]]
+	- 多變數門檻化基本概念 
+		- 一個以上的變數描述影像 
+		- 每個像素以紅、藍、綠三個成分形成彩色影像 
+		- 可表示為一個三維向量z=(Z1,Z2,Z3) 
+		- 三維點常稱為體素(voxel)
+		- 可視為一個距離的計算 
+		- 擷取一個特定的色彩範圍區域(例如黃色)
+	- 三維向量距離空間的討論 
+		- 歐基里德距離 
+		- 馬氏(MahaIanobis)距離 
+		- 邊界盒(boundingbox)距離
 - [Part 11 可變門檻化](https://www.youtube.com/watch?v=7aw3ST4OOMg&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=85&pp=iAQB)
 - [Part 12 區域為基礎的分割](https://www.youtube.com/watch?v=XGWqMNCbsio&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=86&pp=iAQB)
 - [Part 13 以形態學分水嶺來分割](https://www.youtube.com/watch?v=0pt_BhCNWgw&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=87&pp=iAQB)
