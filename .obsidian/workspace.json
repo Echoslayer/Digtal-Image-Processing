@@ -6,6 +6,7 @@
       {
         "id": "9625065043fccba2",
         "type": "tabs",
+        "dimension": 48.61111111111111,
         "children": [
           {
             "id": "8e243af34666b339",
@@ -20,12 +21,38 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "9be883f044104372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df7ea36661140093",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/數位影像處理/Notes/10. 影像分割.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "fc10a72d46edf194",
         "type": "tabs",
+        "dimension": 51.388888888888886,
         "children": [
           {
             "id": "8445c7195630729e",
@@ -103,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/數位影像處理/Index of 數位影像處理.md",
+                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/數位影像處理/Index of 數位影像處理.md",
+                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/數位影像處理/Index of 數位影像處理.md"
+                "file": "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md"
               }
             }
           }
@@ -176,28 +203,40 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "8e243af34666b339",
+  "active": "9be883f044104372",
   "lastOpenFiles": [
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828191911.png",
-    "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828195318.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828195141.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828194959.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828194947.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828194902.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828194550.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828194017.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828193332.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828192906.png",
-    "content/數位影像處理_YT課程/Images/Pasted image 20240828192844.png",
-    "content/數位影像處理_YT課程/單元四 數位影像處理_YT線上課程.md",
-    "content/數位影像處理_YT課程/單元六 之後連結 YT線上課程.md",
-    "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
-    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829161257.png",
+    "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
     "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
-    "content/index.md",
-    "content/數位影像處理/Notes/9.  形態學影像處理.md",
+    "content/數位影像處理_YT課程/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829161225.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829161011.png",
+    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/數位影像處理/Notes/10. 影像分割.md",
+    "content/數位影像處理_YT課程/Images/Pasted image 20240813153843.png",
+    "content/數位影像處理_YT課程/Images/Pasted image 20240813154003.png",
+    "content/數位影像處理_YT課程/Images/CH4/Pasted image 20240814143309.png",
+    "content/數位影像處理_YT課程/Images/CH4/Pasted image 20240814143218.png",
+    "content/數位影像處理_YT課程/Images/CH4/Pasted image 20240814143026.png",
+    "content/數位影像處理_YT課程/Images/CH4/Pasted image 20240813165852.png",
+    "content/數位影像處理_YT課程/Images/CH4/Pasted image 20240813165807.png",
+    "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/Images/CH7",
+    "content/數位影像處理_YT課程/Images/CH5 - 複製",
+    "content/數位影像處理_YT課程/Images/CH5",
+    "content/數位影像處理_YT課程/Images/CH4 - 複製",
+    "content/數位影像處理_YT課程/Images/CH4",
+    "content/數位影像處理_YT課程/Images/Ch4",
+    "content/數位影像處理_YT課程/Images/Ch04",
+    "content/數位影像處理_YT課程/Images/Ch",
+    "content/數位影像處理_YT課程/Images/新增資料夾",
+    "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
+    "content/數位影像處理_YT課程/單元八 彩色影像處理 YT線上課程.md",
     "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
+    "content/數位影像處理/Notes/9.  形態學影像處理.md",
+    "content/數位影像處理_YT課程/單元四 數位影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
+    "content/index.md",
     "content/數位影像處理/Notes/8.  影像壓縮.md",
     "content/數位影像處理/Notes/7.  小波和多解析度處理.md",
     "content/數位影像處理/EXP_ChatGPT/GPT 子頻帶編碼.md",
@@ -209,19 +248,7 @@
     "content/其他/書籍自帶Code.md",
     "content/其他/自實現Code.md",
     "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
-    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.pdf",
     "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
-    "content/實驗室AOI研究/Notes/filter more about aoi.md",
-    "content/實驗室AOI研究/Notes/all filters.md",
-    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.md",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-    "content/實驗室AOI研究/Notes",
-    "content/實驗室AOI研究",
-    "Code/Resources/outputs/pdf/2024-08-27/2024-08-27_line_light_no_p_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-08-27",
-    "content/影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
-    "Code/Notebooks/filters.ipynb",
-    "Code/Resources/Private_Data/line_light_ok_6cm.tif",
-    "Code/Resources/Private_Data/條形光有偏振6cm copy.tif"
+    "content/實驗室AOI研究/Notes/filter more about aoi.md"
   ]
 }

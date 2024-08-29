@@ -1,0 +1,15 @@
+- 基本資訊
+	- 作者: 黃正民
+
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 1 影像表示與描述的基本概念](https://www.youtube.com/watch?v=HmqSRaULJJ4&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=63&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 2 影像物件的外形表示(上)](https://www.youtube.com/watch?v=vZ_YcC84pSQ&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=64&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 3 影像物件的外形表示(中)](https://www.youtube.com/watch?v=KZ4LN_872Tc&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=65&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 4 影像物件的外形表示(下)](https://www.youtube.com/watch?v=baHwOLWSoeU&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=66&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 5 影像物件的骨架表示](https://www.youtube.com/watch?v=Xev2jCUx1VQ&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=67&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 6 影像物件的邊界描述](https://www.youtube.com/watch?v=v7TYLmy6Who&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=68&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 7 影像物件的區域描述(上)](https://www.youtube.com/watch?v=NKMq9B0AmdI&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=69&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 8 影像物件的區域描述(下)](https://www.youtube.com/watch?v=Wz_ff0tuaDU&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=70&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 9 影像特徵的描述與比對(上)](https://www.youtube.com/watch?v=cW8XObp27Bs&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=71&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 10 影像特徵的描述與比對(中)](https://www.youtube.com/watch?v=X2-jrs4R_d4&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=72&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 11 影像特徵的描述與比對(下)](https://www.youtube.com/watch?v=6BY9QKA7Zb0&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=73&pp=iAQB)
+- [數位影像處理_黃正民_單元六 影像表示與描述_Part 12 影像表示與描述的應用](https://www.youtube.com/watch?v=rKqUzGK1kGE&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=74&pp=iAQB)

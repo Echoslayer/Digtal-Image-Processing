@@ -1,0 +1,129 @@
+- 基本資訊
+	- 作者: 許志明
+
+- [Part 1 影像分割基本概念](https://www.youtube.com/watch?v=usBg5zbD2wU&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=75&pp=iAQB)
+	- 分割:將一張影像細分成它的構成的區域或物體 
+	- 細分的程度:依要解決的問題決定 
+	- 分割何時停止:感興趣的物體或區域被偵測出來
+	- 分割演算法是處理像素強度值的兩個特性 
+		- 不連續性:根據強度的突然改變(像是邊緣)來分割影像 
+		- 相似性:根據一組預先定義的準則,將一張影像分割 成有相似特性的區域
+	- 假設R是整個影像區域 
+		- 將R劃分成幾個子區域R_1, R_2, ...R_n 
+		- 所有R的集合必須包含圖上每個像素
+	- 將R劃分成個子區域R_1, R_2, ...R_n 且必須符合下列條件
+		- 區域中的點必須相連通
+		- 各子區域互不相交
+		- 在分割區域的像素都必須滿足的性質
+		- 相鄰區域性質需不同
+	- ![[Pasted image 20240829142509.png]]
+	- ![[Pasted image 20240829142523.png]]
+- [Part 2 孤立點、線檢測](https://www.youtube.com/watch?v=RSDcvDFXei4&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=76&pp=iAQB)
+	- ![[Pasted image 20240829142714.png]]
+	- 一階導數
+		- 漸層部分是一個厚度的等高區域 
+		- 孤立點的位置一階導數有明顯的跳躍值 
+		- 在一個較不明顯的邊緣偵測上,一階導數會來的優秀
+	- 二階導數 
+		- 較厚邊緣只有在變化起點和終點有值 
+		- 在孤立點·或是較明顯的邊緣來說,二階導數 較為敏感,響應較大 
+		- 此種特性會同時加強雜訊訊號
+		- 孤立點或是精緻邊緣有正負值的變化
+		- 由正負值的變化可推測此邊緣特徵 
+			- 由深色邊到淺色邊(正值的二階導數) 
+			- 從淺色邊到深色邊(負值的二階導數)
+	- 孤立點檢測
+		- 以拉普拉斯檢測器為主，因為拉普拉思具有等向性
+		- ![[Pasted image 20240829143816.png]]
+	- 線檢測 
+		- 可以預期二階拉普拉斯會有強烈響應 
+		- 產生比一階導數所得更細的線 
+		- 電子電路用之打線遮罩影像例子 
+			- 取拉普拉斯之後放大檢視正負線效應 
+			- 可用絕對值解決正負值問題
+			- 只取正值解決厚度加寬問題
+		- 若檢測目標為特定方向的線，則不採用拉普拉斯，採用有方向性的遮罩
+- [Part 3 基本邊緣偵測](https://www.youtube.com/watch?v=yHah3EbKwOI&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=77&pp=iAQB)
+	- 邊緣模型依照強度輪廓分類共分三種 
+		- 步階邊緣(step edge) 
+			- ![[Pasted image 20240829144246.png]]
+		- 斜坡邊緣(ramp edge)
+			- ![[Pasted image 20240829144309.png]]
+		- 屋頂邊緣(roof edge)
+			- ![[Pasted image 20240829144330.png]]
+	- ![[Pasted image 20240829144414.png]]
+	- 水平垂直可以用一維遮罩
+	- 有角度的就一定要二維
+	- 常用遮罩
+		- Prewitt 
+			- 做相鄰兩行列的差值 
+		- Sobel 
+			- 做相鄰兩行列的差值,且相鄰中心較Prewitt重
+- [Part 4 Canny邊緣檢測](https://www.youtube.com/watch?v=mJQUoPpf700&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=78&pp=iAQB)
+	- 比前述邊緣檢測都要好
+	- 基於三種基本目標
+		- 低錯誤率
+			- 所有邊緣都應被偵測到 
+		- 邊緣點應有好的局部性
+			- 找到的邊緣盡可能接近
+		- 單一邊緣點響應 
+			- 對一真實邊緣應該只檢測出一個點
+	- Canny邊緣檢測 四步驟
+		- 高斯濾波 -> 計算梯度大小、角度 -> 非最大值抑制 -> 雙門檻化
+		- ![[Pasted image 20240829145755.png]]
+		- ![[Pasted image 20240829145741.png]]
+		- ![[Pasted image 20240829145836.png]]
+		- 非最大值抑制影像g_n為邊緣細化之後的影像 
+		- 取門檻值以減少假邊緣 
+			- 門檻太低仍會有假邊緣 
+			- 門檻太高則有真邊緣被消除 
+			- 因此Canny演算法採用遲滯門檻化解決此問題
+	- ![[Pasted image 20240829150134.png]]
+	- ![[Pasted image 20240829150205.png]]
+- [Part 5 邊緣連接和邊界檢測(上)](https://www.youtube.com/watch?v=sYKgUxPKfb4&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=79&pp=iAQB)
+	- 邊緣連接的緣由 
+		- 理想情況:邊緣檢測應只發生在邊緣上之像素集合 
+		- 實際情況:因為雜訊,引入不均勻照明的破碎邊緣, 使得這些像素很少能完整的表示邊緣
+		- 需要設計將邊緣像素連接成有意義邊緣或區域邊界的 連接演算法
+	- 三種基本的連接方法 
+		- 局部性處理 
+			- 分析已被宣為邊緣點的鄰域像素特性
+				- 如梯度大小、方向等等
+			- ![[Pasted image 20240829151211.png]]
+			- 假如梯度大小、方向的相似準則皆滿足條件 
+				- 將(s,t)和(x,y)相連接 重複以上步驟,掃描整張影像 
+			- 缺點:需要耗費相當大的計算
+				- ![[Pasted image 20240829151325.png]]
+				- 掃描影像g的每一列,若空隙長度小於k,則將空隙填滿 
+				- 若要檢查其他方向空隙則將影像旋轉sita角，處理結束，再旋轉回來
+			- 例子: 車子影像
+				- ![[Pasted image 20240829151503.png]]
+				- ![[Pasted image 20240829151534.png]]
+		- 區域性處理 
+			- 感興趣區域是已知或可被求得的 
+			- 以區域為基礎連結像素 
+			- 結果為區域邊界的近似
+			- ![[Pasted image 20240829151714.png]]
+			- ![[Pasted image 20240829151804.png]]
+			- 例子: 牙齒X光影像
+				- ![[Pasted image 20240829151907.png]]
+		- 整體處理(Hough轉換)
+- [Part 6 邊緣連接和邊界檢測(下)](https://www.youtube.com/watch?v=QUAJGSIa6kE&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=80&pp=iAQB)
+	- 整體處理(Hough轉換)
+		- 前提
+			- 不確定感興趣區域會在哪裡 
+			- 所有像素都是可能連接候選者 
+			- 定義整體性質以連接或是消除像素
+		- 理論
+			- ![[Pasted image 20240829152137.png]]
+			- ![[Pasted image 20240829152200.png]]
+			- ![[Pasted image 20240829152250.png]]
+			- ![[Pasted image 20240829152316.png]]
+			- ![[Pasted image 20240829152346.png]]
+			- ![[Pasted image 20240829152356.png]]
+			- ![[Pasted image 20240829152410.png]]
+		- 例子
+			- ![[Pasted image 20240829152546.png]]
+		- 例子
+			- ![[Pasted image 20240829152658.png]]
+			- ![[Pasted image 20240829152710.png]]

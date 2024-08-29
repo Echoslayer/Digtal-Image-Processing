@@ -1,0 +1,77 @@
+- 基本資訊
+	- 作者: 許志明
+
+- [Part 7 門檻化基礎](https://www.youtube.com/watch?v=PHQh01u_INY&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=81&pp=iAQB)
+	- 強度門檻化的優勢 
+		- 直觀性 
+		- 實現的單純性 
+		- 計算速度快
+	- 常見的門檻化類別 
+	- 門檻為一常數: 整體門檻化 (globalthresholding) 
+	- 門檻值會變動: 局部門檻化 (localthresholding) 
+	- 門檻值和空間座標有關: 動態門檻化 (dynamicthresholding)
+	- 基本原理 
+		- 影像為陰暗背景和明亮物體組成
+		- 選定一個分開兩物體的門檻值
+		- 較複雜情形時，如影像為陰暗背景和兩個明亮物體組成，選定兩個分開三物體 的門檻值
+	- 門檻化影響因素 
+		- 尖峰之間的分隔度 
+		- 物體和背景相對大小 
+		- 影像反射性質的均勻性 
+		- 影像中的雜訊 
+		- 照明光源的均勻性
+- [Part 8 Otsu門檻化法](https://www.youtube.com/watch?v=tkAhzM60H0Y&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=82&pp=iAQB)
+	- 自動估測門檻值的演算法 
+		- 選取門檻T的初始估測值 產生兩組像素G_1和G_2 
+		- 計算出GI和G2區域的平均強度m_1和m_2 
+		- 計算新的門檻值T'=0.5(m_1+m_2)
+		- 重複以上三個步驟直到T值差異小於預設的△T
+	- Otsu自動門檻化方式
+		- 重要性質 
+			- 使類別間的變異數最大化 
+			- 好的門檻化下各類別,它們的像素強度值應該很不同 
+			- 完全依據影像直方圖執行運算
+		- ![[Pasted image 20240829155602.png]]
+		- ![[Pasted image 20240829155645.png]]
+		- ![[Pasted image 20240829155710.png]]
+		- ![[Pasted image 20240829155804.png]]
+		- ![[Pasted image 20240829155855.png]]
+		- ![[Pasted image 20240829155921.png]]
+		- ![[Pasted image 20240829155947.png]]
+		- ![[Pasted image 20240829160007.png]]
+	- 例子
+		- ![[Pasted image 20240829160034.png]]
+- [Part 9 影像平滑、邊緣改善整體門檻化](https://www.youtube.com/watch?v=uk8Uuh196Bk&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=83&pp=iAQB)
+	- 雜訊會使門檻值失效 
+		- 當雜訊無法降低 
+		- 門檻化為分割方法 
+	- 增強效能方法:門檻化之前先將影像平滑處理
+	- 物體區域小到對直方圖的貢獻相較於雜訊而言小的多時，單純使用平滑+otsu會無效
+	- 直方圖門檻化的特性 
+		- 直方圖的尖峰是高、窄、對稱 
+		- 直方圖有深的山谷特徵 
+	- 直方圖不受物體和背景的相對大小所影響 
+		- 只考慮靠近物體與背景間邊緣的那些像素強度分布
+	- 只考慮靠近物體與背景間邊緣的那些像素分布 
+		- 假設物體與背景間的邊緣是已知的情況下 
+		- 可以改善直方圖模式的對稱性直方圖 
+		- 實際上,這個邊緣資訊在分割的過程中是不可得的
+	- 可由計算像素的梯度或拉普拉斯準則找出邊緣
+	- ![[Pasted image 20240829161011.png]]
+	- 演算法 
+		- 計算影像f(x, y)梯度或拉普拉斯絕對值 
+		- 指定門檻值形成二值影像g_T(x, y)
+		- 以f(x, y)中和g_T(x, y)非零像素同位置像素計算直方圖 
+		- 以Otsu法計算門檻值
+	- 例子
+		- ![[Pasted image 20240829161225.png]]
+		- ![[Pasted image 20240829161257.png]]
+- [Part 10 多重門檻與多變數門檻化](https://www.youtube.com/watch?v=Snpfp16nt3Y&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=84&pp=iAQB)
+	- 
+- [Part 11 可變門檻化](https://www.youtube.com/watch?v=7aw3ST4OOMg&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=85&pp=iAQB)
+- [Part 12 區域為基礎的分割](https://www.youtube.com/watch?v=XGWqMNCbsio&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=86&pp=iAQB)
+- [Part 13 以形態學分水嶺來分割](https://www.youtube.com/watch?v=0pt_BhCNWgw&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=87&pp=iAQB)
+- [Part 14 分水嶺分割演算法](https://www.youtube.com/watch?v=h5FiqMp-Iq8&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=88&pp=iAQB)
+- [Part 15 在分割中運動的使用(上)](https://www.youtube.com/watch?v=ymwZOiL74i0&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=89&pp=iAQB)
+- [Part 16 在分割中運動的使用(下)](https://www.youtube.com/watch?v=ZdhAeumAE1M&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=90&pp=iAQB)
+- 
