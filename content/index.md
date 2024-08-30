@@ -19,7 +19,7 @@ tags:
 
 ### Youtube 筆記
 - [[Index of 數位影像處理_YT線上課程]]<br>
-<img src="https://yt3.ggpht.com/ytc/AIdro_mkOYLduOXRYz2w-PGZIaXi4CM1EERKy3bFrGQB_NzR1pqY=s48-c-k-c0x00ffffff-no-rj" style="width:5rem">
+<img src="https://high.deltamoocx.net/static/deltamoocx/images/banner_all.jpg" style="width:10rem">
 
 
 ### 研究筆記

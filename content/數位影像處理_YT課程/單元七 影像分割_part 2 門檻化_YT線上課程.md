@@ -86,9 +86,94 @@
 		- 馬氏(MahaIanobis)距離 
 		- 邊界盒(boundingbox)距離
 - [Part 11 可變門檻化](https://www.youtube.com/watch?v=7aw3ST4OOMg&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=85&pp=iAQB)
+	- 影響門檻化演算法的效能 
+		- 影像雜訊和非均勻照明的因數 
+		- 影像平滑和用邊緣資訊,可幫助分割效能 
+		- 遇到影像局部照明或反射不均勻時則仍影響著影像分割的成敗
+	- 可變門檻的三種方法 
+		- 影像分區進行門檻化 
+			- 將一張影像切成不重疊的矩形 
+			- 用於補償照明、反射的非均勻性 
+			- 矩形夠小使得區域內照明約略均勻
+			- ![[Pasted image 20240830124302.png]]
+			- ![[Pasted image 20240830124332.png]]
+			- 物體有明顯分區時才好使用，如果擷取區域僅有一物體則會失敗
+		- 基於局部影像性質的可變門檻化 
+			- ![[Pasted image 20240830124528.png]]
+			- ![[Pasted image 20240830124605.png]]
+			- ![[Pasted image 20240830124651.png]]
+			- ![[Pasted image 20240830124720.png]]
+		- 用移動平均進行門檻化
+			- ![[Pasted image 20240830124806.png]]
+			- ![[Pasted image 20240830124847.png]]
+			- ![[Pasted image 20240830124913.png]]
+			- ![[Pasted image 20240830124939.png]]
 - [Part 12 區域為基礎的分割](https://www.youtube.com/watch?v=XGWqMNCbsio&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=86&pp=iAQB)
+	- 以區域為基礎的分割類型 
+		- 區域成長 
+			- 像素或子區域根據預先的定義聚合成長 
+				- 從一個種子出發 
+				- 性質相似的點進行聚合 
+			- 預先定義的性質 
+				- 強度、色度、紋理等
+			- 選擇相似性準則 
+				- 想解決的問題類型 
+				- 影像資料類型 
+				- 區域成長終止原則:無像素能滿足被包括進該區域的準則時
+			- 演算法
+				- f(x, y)為輸入影像 
+				- S(x,y)代表含有非零像素的種子點陣列 
+				- Q為每個(x,y)位置要運用的述詞(判斷相似的準則)
+				- 找出s(x,所有連通成分並侵蝕,直到每一連通成分為單一像素點 
+				- 形成影像f_Q(x, y)
+					- 1 if Q is true 
+					- 0 if Q is not true
+				- 令g為輸出影像，對S(x, y)中每一個種子點和以八連通相接的點，加入g影像中 
+				- 將g輸出影像中的每個連通成分以不同的區域標記標示,最後得到區域成長法的分割影像
+			- ![[Pasted image 20240830125811.png]]
+			- ![[Pasted image 20240830125849.png]]
+			- ![[Pasted image 20240830125906.png]]
+			- ![[Pasted image 20240830125914.png]]
+		- 區域分裂與合併
+			- 區域分裂
+				- ![[Pasted image 20240830130019.png]]
+			- 區域合併
+				- 使用區域分裂，最終的分割可能會有一些相同性質與相同區域的缺點，因次再使用區域合併來補救
+				- ![[Pasted image 20240830130311.png]]
+			- 演算法
+				- ![[Pasted image 20240830130341.png]]
+			- 例子
+				- 圖為566x566的X光影像 
+				- 欲分割出環形的稀疏物質 
+				- 稀疏物質特性 
+					- 有較大標準差 
+					- 平均強度大於背景,小於高密度區 
+				- ![[Pasted image 20240830130613.png]]
+				- ![[Pasted image 20240830130704.png]]
 - [Part 13 以形態學分水嶺來分割](https://www.youtube.com/watch?v=0pt_BhCNWgw&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=87&pp=iAQB)
+	- ![[Pasted image 20240830134113.png]]
+	- ![[Pasted image 20240830134208.png]]
+	- 基本概念 
+		- 想像在區域最小值處鑽孔讓水注入 
+		- 水位以均勻速度上升 
+		- 到快要匯流時建立水壩阻隔 
+		- 其水壩處就是分水線,也就是影像的連續邊界
+	- 例子
+		- ![[Pasted image 20240830134340.png]]
+		- ![[Pasted image 20240830134406.png]]
+		- ![[Pasted image 20240830134428.png]]
+	- 水壩的建造 
+		- 以二值影像為基礎 
+		- 以形態學的膨脹來建立 
+		- 設M1、M2為區域極小點的集合 
+		- C_n一1(M1)為第n-1階段從M1氾濫的水集合
+		- ![[Pasted image 20240830134758.png]]
+		- 兩個集水區形成兩個連通成分 
+		- 令連通成分為q 
+		- 膨脹成分必被限制在q
+		- ![[Pasted image 20240830134902.png]]
 - [Part 14 分水嶺分割演算法](https://www.youtube.com/watch?v=h5FiqMp-Iq8&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=88&pp=iAQB)
+	- ![[Pasted image 20240830135101.png]]
+	- ![[Pasted image 20240830135128.png]]
 - [Part 15 在分割中運動的使用(上)](https://www.youtube.com/watch?v=ymwZOiL74i0&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=89&pp=iAQB)
 - [Part 16 在分割中運動的使用(下)](https://www.youtube.com/watch?v=ZdhAeumAE1M&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=90&pp=iAQB)
-- 

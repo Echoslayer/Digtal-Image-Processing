@@ -2,14 +2,132 @@
 	- 作者: 黃正民
 
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 1 影像表示與描述的基本概念](https://www.youtube.com/watch?v=HmqSRaULJJ4&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=63&pp=iAQB)
+	- 機器視覺的圖形識別或電腦視覺之應用,常會先用從影像中擷取出有用的物件或特徵 表示與描述 
+	- 直接用物件的區塊內容 難度高且沒有效率，要用簡單的表示式來表示物件，最後再以數值來描述物件
+	- 表示(representation) 
+		- 用簡單的圖形來代替複雜的圖形 
+	- 描述(description)
+		- 將簡單的圖形用數值描述出來,做為分析、辨識的依據
+	- 影像物件特徵 
+		- 特徵點 
+		- 輪廓外形 
+		- 結構關係 
+		- 顏色 
+		- 紋理
+	- 物件表示 
+		- 外形表示(boundaryrepresentation) 
+		- 骨架表示(skeletonrepresentation) 
+	- 物件描述 
+		- 外形描述(boundarydescription) 
+		- 區域描述(regiondescription)
+	- 不變性影像物件特徵 
+		- 物件與相機之間可能有不同的距離及方向 
+		- 同一種物件因為擺置的遠近及方向的不同,有不同的物件影像,不能就認為是不同的物件 
+		- 物件的表示與描述與物件的大小、位置、及方向無關
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 2 影像物件的外形表示(上)](https://www.youtube.com/watch?v=vZ_YcC84pSQ&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=64&pp=iAQB)
+	- 外形表示(boundaryrepresentation) 
+		- 在物件比對、確認、及辨識上常被使用 
+		- 被發展出來的表示式也最多 
+		- 鏈碼表示、多邊形表示、一維函數表示、邊界分段表示
+	- 鏈碼表示
+		- ![[Pasted image 20240830143539.png]]
+		- 步驟
+			- 根據鏈碼的長度,在物件輪 廓的平面上劃分網格 
+			- 選取離輪廓較近的網格端點 
+			- 選擇一個端點為起始點 
+			- 順時鐘方向將相鄰的端點連 結、編碼成方向碼
+		- ![[Pasted image 20240830143808.png]]
+		- 如何使鏈碼表示式與起始點、 物件大小、物件方向無關 
+			- 與起始點無關 將鏈碼字串視為一個整數,循環 鏈碼,取最小整數來決定起始點 
+		- 與物件大小無關: 網格大小是隨著物件的大小而改變 
+		- 與物件方向無關: 將方向碼改成為相對方向碼,以目前的方向碼減前一個方向碼
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 3 影像物件的外形表示(中)](https://www.youtube.com/watch?v=KZ4LN_872Tc&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=65&pp=iAQB)
+	- 多邊形表示
+		- ![[Pasted image 20240830144126.png]]
+		- ![[Pasted image 20240830144242.png]]
+		- ![[Pasted image 20240830144346.png]]
+		- ![[Pasted image 20240830144445.png]]
+		- ![[Pasted image 20240830144511.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 4 影像物件的外形表示(下)](https://www.youtube.com/watch?v=baHwOLWSoeU&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=66&pp=iAQB)
+	- 漸進分割法
+		- ![[Pasted image 20240830144635.png]]
+		- ![[Pasted image 20240830144814.png]]
+		- ![[Pasted image 20240830144954.png]]
+		- ![[Pasted image 20240830150731.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 5 影像物件的骨架表示](https://www.youtube.com/watch?v=Xev2jCUx1VQ&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=67&pp=iAQB)
+	- ![[Pasted image 20240830150849.png]]
+	- ![[Pasted image 20240830151009.png]]
+	- ![[Pasted image 20240830151037.png]]
+	- ![[Pasted image 20240830151128.png]]
+	- ![[Pasted image 20240830151220.png]]
+	- 
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 6 影像物件的邊界描述](https://www.youtube.com/watch?v=v7TYLmy6Who&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=68&pp=iAQB)
+	- ![[Pasted image 20240830151347.png]]
+	- ![[Pasted image 20240830151404.png]]
+	- ![[Pasted image 20240830151523.png]]
+	- ![[Pasted image 20240830151602.png]]
+	- 統計力矩(statisticalmoments) 
+		- 力矩是資料的統計量 
+		- 0階:資料點的個數 
+		- 1階:資料的總和 
+		- 2階:變異量(variance) 
+		- 3階:偏斜量(skew) 
+		- 高階:沒有單純的物理意義
+		- ![[Pasted image 20240830152130.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 7 影像物件的區域描述(上)](https://www.youtube.com/watch?v=NKMq9B0AmdI&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=69&pp=iAQB)
+	- 區域描述
+		- 描述區塊內部的影像特徵
+		- 簡單的區域描述 
+			- 面積(area):封閉輪廓內的像素個數 
+			- 周長(perimeter):封閉輪廓上的像素個數 
+			- 緊湊性(compactness)·周長2/面積 
+			- 主軸(principalaxes):物體分佈最廣的方向 
+			- 區域內灰階平均值、中間值、最大值、最小值等
+		- 例子
+			- ![[Pasted image 20240830152352.png]]
+		- ![[Pasted image 20240830152418.png]]
+		- ![[Pasted image 20240830152436.png]]
+		- ![[Pasted image 20240830152516.png]]
+		- ![[Pasted image 20240830152733.png]]
+		- ![[Pasted image 20240830152802.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 8 影像物件的區域描述(下)](https://www.youtube.com/watch?v=Wz_ff0tuaDU&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=70&pp=iAQB)
+	- ![[Pasted image 20240830153039.png]]
+	- 灰階共生矩陣的描述 
+		- 最大機率值:最可能的像素相對位置關係 
+		- k次方的差值力矩(elrment difference moment of order k):灰階共生矩陣中,數值高的元素是否集中 在對角線附近 
+		- 亂度:共生矩陣的元素數值愈相近,亂度值愈大,影 像中灰階值分佈越凌亂
+	- ![[Pasted image 20240830153310.png]]
+	- ![[Pasted image 20240830153319.png]]
+	- ![[Pasted image 20240830153409.png]]
+	- ![[Pasted image 20240830153428.png]]
+	- 例子
+		- ![[Pasted image 20240830153440.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 9 影像特徵的描述與比對(上)](https://www.youtube.com/watch?v=cW8XObp27Bs&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=71&pp=iAQB)
+	- ![[Pasted image 20240830153710.png]]
+	- 三角才是，其他不是
+	- ![[Pasted image 20240830153818.png]]
+	- ![[Pasted image 20240830153921.png]]
+	- ![[Pasted image 20240830154005.png]]
+	- ![[Pasted image 20240830154058.png]]
+	- ![[Pasted image 20240830154208.png]]
+	- ![[Pasted image 20240830154236.png]]
+	- ![[Pasted image 20240830154316.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 10 影像特徵的描述與比對(中)](https://www.youtube.com/watch?v=X2-jrs4R_d4&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=72&pp=iAQB)
+	- ![[Pasted image 20240830154404.png]]
+	- 比對方式 
+		- 掃描影像中的各個區域,分別做為候選區域 
+		- 計算各候選區域的累加邊緣強度值 
+		- 選出最大值者·即為比對結果
+	- ![[Pasted image 20240830154556.png]]
+	- ![[Pasted image 20240830154654.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 11 影像特徵的描述與比對(下)](https://www.youtube.com/watch?v=6BY9QKA7Zb0&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=73&pp=iAQB)
+	- ![[Pasted image 20240830154836.png]]
+	- ![[Pasted image 20240830154912.png]]
+	- SAD
+	- ![[Pasted image 20240830155021.png]]
+	- ![[Pasted image 20240830155051.png]]
+	- ![[Pasted image 20240830155144.png]]
 - [數位影像處理_黃正民_單元六 影像表示與描述_Part 12 影像表示與描述的應用](https://www.youtube.com/watch?v=rKqUzGK1kGE&list=PLI6pJZaOCtF2fjFxpVGAqWgENVZw69QD2&index=74&pp=iAQB)
+	- ![[Pasted image 20240830155414.png]]
+	- ![[Pasted image 20240830155539.png]]
+	- ![[Pasted image 20240830155615.png]]
