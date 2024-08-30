@@ -1,9 +1,11 @@
 ---
-title: Index of 影像處理與電腦視覺
+title: 影像處理與電腦視覺
 draft: false
 tags:
   - Index
+date: 2024-08-14
 ---
+
 
 - 版本: 第五版
 - 作者: 鍾國亮

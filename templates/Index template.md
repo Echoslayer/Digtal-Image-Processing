@@ -1,6 +1,7 @@
 ---
 title: 
 draft: false
-tags:
+tags: 
+date: 2024-08-30
 ---
 

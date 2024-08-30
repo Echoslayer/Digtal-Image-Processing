@@ -1,9 +1,10 @@
 ---
-title: Index of 數位影像處理
+title: 數位影像處理目錄
 draft: false
-tags:
-  - Index
+tags: 
+date: 2024-08-30
 ---
+
 
 - 基本資訊
 	- 作者: Rafael C. Gonzalez, Richard E. Woods

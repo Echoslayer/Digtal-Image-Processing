@@ -6,7 +6,6 @@
       {
         "id": "9625065043fccba2",
         "type": "tabs",
-        "dimension": 48.61111111111111,
         "children": [
           {
             "id": "8e243af34666b339",
@@ -28,31 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
+                "file": "templates/Index template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6353e8793ea0a852",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "fc10a72d46edf194",
-        "type": "tabs",
-        "dimension": 51.388888888888886,
-        "children": [
-          {
-            "id": "8445c7195630729e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf"
-              }
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md"
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md"
               }
             }
           }
@@ -191,52 +185,53 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "df7ea36661140093",
+  "active": "6353e8793ea0a852",
   "lastOpenFiles": [
-    "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
-    "content/index.md",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830155615.png",
-    "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830155539.png",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830155414.png",
-    "Pasted image 20240830155333.png",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830155144.png",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830155051.png",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830155021.png",
-    "Pasted image 20240830155019.png",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830154912.png",
-    "content/數位影像處理_YT課程/Images/CH6/Pasted image 20240830154836.png",
+    "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "content/數位影像處理_YT課程/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
-    "content/數位影像處理_YT課程/Images/CH6",
-    "content/數位影像處理/Notes/10. 影像分割.md",
     "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
-    "docs/advanced/architecture.md",
+    "content/數位影像處理_YT課程/單元八 彩色影像處理 YT線上課程.md",
+    "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
+    "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
+    "public/數位影像處理_YT課程/單元四-頻率上濾波-數位影像處理_YT線上課程.html",
+    "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "content/index.md",
+    "public/tags/-.html",
+    "public/404.html",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155539.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155615.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155414.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155144.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155051.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155021.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154912.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154836.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154654.png",
+    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154556.png",
+    "public/數位影像處理_YT課程/Images/CH6",
+    "public/數位影像處理_YT課程/Images/CH7",
+    "public/影像處理與電腦視覺/PDF/Chapter-9-圖形識別、匹配與三維影像重建.pdf",
+    "public/影像處理與電腦視覺/PDF/Chapter-8-紋理描述與分類.pdf",
+    "public/影像處理與電腦視覺/PDF/Chapter-7-圓與橢圓偵測.pdf",
+    "public/影像處理與電腦視覺/PDF/Chapter-6-直線與道路偵測.pdf",
+    "public/影像處理與電腦視覺/PDF/Chapter-5-門檻值決定與區域的分割.pdf",
+    "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
     "content/數位影像處理/Index of 數位影像處理.md",
+    "templates/Index template.md",
+    "content/數位影像處理/Notes/10. 影像分割.md",
+    "docs/advanced/architecture.md",
     "docs/layout.md",
     "docs/authoring content.md",
     "Pasted image 20240830125946.png.md",
-    "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
-    "content/數位影像處理_YT課程/Images/CH7",
-    "content/數位影像處理_YT課程/Images/CH5 - 複製",
-    "content/數位影像處理_YT課程/Images/CH5",
-    "content/數位影像處理_YT課程/Images/CH4 - 複製",
-    "content/數位影像處理_YT課程/Images/CH4",
-    "content/數位影像處理_YT課程/Images/Ch4",
-    "content/數位影像處理_YT課程/Images/Ch04",
-    "content/數位影像處理_YT課程/Images/Ch",
-    "content/數位影像處理_YT課程/Images/新增資料夾",
-    "content/數位影像處理_YT課程/單元八 彩色影像處理 YT線上課程.md",
     "content/數位影像處理/Notes/9.  形態學影像處理.md",
-    "content/數位影像處理_YT課程/單元四 數位影像處理_YT線上課程.md",
-    "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
     "content/數位影像處理/Notes/8.  影像壓縮.md",
     "content/數位影像處理/Notes/7.  小波和多解析度處理.md",
     "content/數位影像處理/EXP_ChatGPT/GPT 子頻帶編碼.md",
     "content/數位影像處理/EXP_ChatGPT/GPT 數位影像處理中，二階導數.md",
-    "content/數位影像處理/EXP_ChatGPT/GPT 影像金字塔.md",
-    "content/數位影像處理/Notes/6.  彩色影像處理.md",
-    "content/其他/實驗室PPT對應.md",
-    "content/數位影像處理/Notes/5.  影像復原與重建.md",
-    "content/其他/書籍自帶Code.md"
+    "content/數位影像處理/EXP_ChatGPT/GPT 影像金字塔.md"
   ]
 }
