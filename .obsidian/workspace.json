@@ -22,31 +22,35 @@
             }
           },
           {
-            "id": "df7ea36661140093",
+            "id": "194a5d9751ef62c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Index template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6353e8793ea0a852",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+                "file": "content/數位影像處理/Notes/12. 物體辨識.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "0daabe3e41e32f15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cf1255cb8de3ac8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+                "file": "content/數位影像處理/Notes/12. 物體辨識.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+                "file": "content/數位影像處理/Notes/12. 物體辨識.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md"
+                "file": "content/數位影像處理/Notes/12. 物體辨識.md"
               }
             }
           }
@@ -185,12 +189,18 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "6353e8793ea0a852",
+  "active": "194a5d9751ef62c1",
   "lastOpenFiles": [
-    "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
-    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/數位影像處理/Notes/11. 表示與描述.md",
+    "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
+    "content/數位影像處理/Notes/10. 影像分割.md",
+    "templates/Index template.md",
+    "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
     "content/數位影像處理_YT課程/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+    "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
     "content/數位影像處理_YT課程/單元八 彩色影像處理 YT線上課程.md",
     "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
@@ -218,11 +228,6 @@
     "public/影像處理與電腦視覺/PDF/Chapter-8-紋理描述與分類.pdf",
     "public/影像處理與電腦視覺/PDF/Chapter-7-圓與橢圓偵測.pdf",
     "public/影像處理與電腦視覺/PDF/Chapter-6-直線與道路偵測.pdf",
-    "public/影像處理與電腦視覺/PDF/Chapter-5-門檻值決定與區域的分割.pdf",
-    "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
-    "content/數位影像處理/Index of 數位影像處理.md",
-    "templates/Index template.md",
-    "content/數位影像處理/Notes/10. 影像分割.md",
     "docs/advanced/architecture.md",
     "docs/layout.md",
     "docs/authoring content.md",
@@ -230,8 +235,6 @@
     "content/數位影像處理/Notes/9.  形態學影像處理.md",
     "content/數位影像處理/Notes/8.  影像壓縮.md",
     "content/數位影像處理/Notes/7.  小波和多解析度處理.md",
-    "content/數位影像處理/EXP_ChatGPT/GPT 子頻帶編碼.md",
-    "content/數位影像處理/EXP_ChatGPT/GPT 數位影像處理中，二階導數.md",
-    "content/數位影像處理/EXP_ChatGPT/GPT 影像金字塔.md"
+    "content/數位影像處理/EXP_ChatGPT/GPT 子頻帶編碼.md"
   ]
 }
