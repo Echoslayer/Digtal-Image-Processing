@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/數位影像處理/Notes/12. 物體辨識.md",
+                "file": "content/其他/實驗室PPT對應.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/數位影像處理/Notes/12. 物體辨識.md",
+                "file": "content/其他/實驗室PPT對應.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/數位影像處理/Notes/12. 物體辨識.md",
+                "file": "content/其他/實驗室PPT對應.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/數位影像處理/Notes/12. 物體辨識.md"
+                "file": "content/其他/實驗室PPT對應.md"
               }
             }
           }
@@ -191,9 +191,20 @@
   },
   "active": "194a5d9751ef62c1",
   "lastOpenFiles": [
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_twice_p_darkest_shodow_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_twice_p_darkest_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_6cm_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_4cm_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_no_p_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23",
+    "content/實驗室AOI研究/pdf",
+    "content/實驗室AOI研究/2024-08-23/2024-08-23_twice_p_darkest_shodow_aoireport.pdf",
+    "content/實驗室AOI研究/2024-08-23/2024-08-23_twice_p_darkest_aoireport.pdf",
+    "content/實驗室AOI研究/2024-08-23/2024-08-23_line_light_ok_6cm_aoireport.pdf",
+    "content/實驗室AOI研究/2024-08-23/2024-08-23_line_light_ok_4cm_aoireport.pdf",
+    "content/數位影像處理/Notes/12. 物體辨識.md",
     "content/數位影像處理/Index of 數位影像處理.md",
     "content/數位影像處理/Notes/11. 表示與描述.md",
-    "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
     "content/數位影像處理/Notes/10. 影像分割.md",
     "templates/Index template.md",
     "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
@@ -207,11 +218,8 @@
     "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
-    "public/數位影像處理_YT課程/單元四-頻率上濾波-數位影像處理_YT線上課程.html",
     "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
     "content/index.md",
-    "public/tags/-.html",
-    "public/404.html",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155539.png",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155615.png",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155414.png",
@@ -222,19 +230,12 @@
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154836.png",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154654.png",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154556.png",
-    "public/數位影像處理_YT課程/Images/CH6",
-    "public/數位影像處理_YT課程/Images/CH7",
-    "public/影像處理與電腦視覺/PDF/Chapter-9-圖形識別、匹配與三維影像重建.pdf",
-    "public/影像處理與電腦視覺/PDF/Chapter-8-紋理描述與分類.pdf",
-    "public/影像處理與電腦視覺/PDF/Chapter-7-圓與橢圓偵測.pdf",
-    "public/影像處理與電腦視覺/PDF/Chapter-6-直線與道路偵測.pdf",
     "docs/advanced/architecture.md",
     "docs/layout.md",
     "docs/authoring content.md",
     "Pasted image 20240830125946.png.md",
     "content/數位影像處理/Notes/9.  形態學影像處理.md",
     "content/數位影像處理/Notes/8.  影像壓縮.md",
-    "content/數位影像處理/Notes/7.  小波和多解析度處理.md",
-    "content/數位影像處理/EXP_ChatGPT/GPT 子頻帶編碼.md"
+    "content/數位影像處理/Notes/7.  小波和多解析度處理.md"
   ]
 }
