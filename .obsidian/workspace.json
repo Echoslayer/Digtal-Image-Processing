@@ -6,6 +6,7 @@
       {
         "id": "9625065043fccba2",
         "type": "tabs",
+        "dimension": 56.78358702845797,
         "children": [
           {
             "id": "8e243af34666b339",
@@ -22,31 +23,45 @@
             }
           },
           {
-            "id": "194a5d9751ef62c1",
+            "id": "4d4a81533aaaafa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md",
+                "file": "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0a4979c98f12240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0daabe3e41e32f15",
         "type": "tabs",
+        "dimension": 43.21641297154202,
         "children": [
           {
             "id": "6cf1255cb8de3ac8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf"
+                "file": "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -116,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md",
+                "file": "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md",
+                "file": "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md"
+                "file": "content/其他/介紹投影片/型態學影像處理介紹PPT.md"
               }
             }
           }
@@ -189,35 +204,38 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "194a5d9751ef62c1",
+  "active": "6cf1255cb8de3ac8",
   "lastOpenFiles": [
+    "content/其他/實驗室PPT對應.md",
+    "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
+    "content/數位影像處理/Index of 數位影像處理.md",
+    "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
+    "content/數位影像處理/Notes/9.  形態學影像處理.md",
+    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "templates/Index template.md",
+    "content/其他/介紹投影片",
+    "content/數位影像處理_YT課程/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240829150205.png",
+    "content/數位影像處理/Notes/10. 影像分割.md",
+    "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
+    "content/數位影像處理/Notes/12. 物體辨識.md",
+    "content/影像處理與電腦視覺/PDF/Chapter 16 深度學習在電腦視覺的應用.pdf",
+    "content/影像處理與電腦視覺/PDF/Chapter 5 門檻值決定與區域的分割.pdf",
+    "content/影像處理與電腦視覺/PDF/Chapter 3 影像品質的改善與回復.pdf",
+    "content/影像處理與電腦視覺/PDF/Chapter 2 型態學、DCT、人臉定位與 FFT.pdf",
+    "content/影像處理與電腦視覺/PDF/Chapter 8 紋理描述與分類.pdf",
+    "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
+    "content/影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
     "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_twice_p_darkest_shodow_aoireport.pdf",
     "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_twice_p_darkest_aoireport.pdf",
     "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_6cm_aoireport.pdf",
-    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_4cm_aoireport.pdf",
-    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_no_p_aoireport.pdf",
-    "content/實驗室AOI研究/pdf/2024-08-23",
-    "content/實驗室AOI研究/pdf",
-    "content/實驗室AOI研究/2024-08-23/2024-08-23_twice_p_darkest_shodow_aoireport.pdf",
-    "content/實驗室AOI研究/2024-08-23/2024-08-23_twice_p_darkest_aoireport.pdf",
-    "content/實驗室AOI研究/2024-08-23/2024-08-23_line_light_ok_6cm_aoireport.pdf",
-    "content/實驗室AOI研究/2024-08-23/2024-08-23_line_light_ok_4cm_aoireport.pdf",
-    "content/數位影像處理/Notes/12. 物體辨識.md",
-    "content/數位影像處理/Index of 數位影像處理.md",
     "content/數位影像處理/Notes/11. 表示與描述.md",
-    "content/數位影像處理/Notes/10. 影像分割.md",
-    "templates/Index template.md",
     "content/數位影像處理_YT課程/單元六 影像表示與描述_YT線上課程.md",
-    "content/數位影像處理_YT課程/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
     "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
     "content/數位影像處理_YT課程/單元七 影像分割_part 2 門檻化_YT線上課程.md",
     "content/數位影像處理_YT課程/單元八 彩色影像處理 YT線上課程.md",
-    "content/數位影像處理_YT課程/單元三 之前連結 YT線上課程.md",
-    "content/數位影像處理_YT課程/單元五 型態學影像處理_YT線上課程.md",
-    "content/數位影像處理_YT課程/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
-    "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
     "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
     "content/index.md",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830155539.png",
@@ -229,13 +247,10 @@
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154912.png",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154836.png",
     "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154654.png",
-    "public/數位影像處理_YT課程/Images/CH6/Pasted-image-20240830154556.png",
     "docs/advanced/architecture.md",
     "docs/layout.md",
     "docs/authoring content.md",
     "Pasted image 20240830125946.png.md",
-    "content/數位影像處理/Notes/9.  形態學影像處理.md",
-    "content/數位影像處理/Notes/8.  影像壓縮.md",
-    "content/數位影像處理/Notes/7.  小波和多解析度處理.md"
+    "content/數位影像處理/Notes/8.  影像壓縮.md"
   ]
 }
