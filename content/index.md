@@ -24,6 +24,7 @@ tags:
 
 ### 研究筆記
 #### [[Index of 實驗室AOI研究]]
+#### [[Index of 論文]]
 
 ## Code Include
 #### [[書籍自帶Code]]

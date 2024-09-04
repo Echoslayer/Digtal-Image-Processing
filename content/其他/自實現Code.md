@@ -13,4 +13,6 @@
 	- fourier_and_histogram
 	- filter
 	- aoi
+	- noices
+		- 替圖片添加雜訊並儲存
 
