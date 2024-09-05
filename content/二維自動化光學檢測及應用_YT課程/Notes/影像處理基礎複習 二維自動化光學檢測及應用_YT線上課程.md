@@ -1,0 +1,23 @@
+---
+title: 影像處理基礎複習
+draft: false
+tags: 
+date: 2024-09-05
+---
+
+
+## 原作者
+原投影片作者:  陳金聖
+台北科技大學電機系教授
+
+
+- [影像空間濾波](https://www.youtube.com/watch?v=QhROA8LIQb0&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=9&pp=iAQB)
+- [影像頻率濾波](https://www.youtube.com/watch?v=LAoARiVcFM8&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=10&pp=iAQB)
+- [影像分割1](https://www.youtube.com/watch?v=ekAo-4ajUS8&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=11&pp=iAQB)
+- [影像分割2](https://www.youtube.com/watch?v=B894m4K3Lyo&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=12&pp=iAQB)
+- [影像分割3](https://www.youtube.com/watch?v=7aSh75zHw-Q&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=13&pp=iAQB)
+- [形態學1](https://www.youtube.com/watch?v=3kyZd5KUqTQ&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=14&pp=iAQB)
+- [形態學2](https://www.youtube.com/watch?v=qMKmu5OBPmE&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=15&pp=iAQB)
+- [影像特徵表示與描述1](https://www.youtube.com/watch?v=d7vTbNJZL-8&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=16&pp=iAQB)
+- [影像特徵表示與描述2](https://www.youtube.com/watch?v=mEaxnisSVLM&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=17&pp=iAQB)
+- [影像特徵表示與描述3](https://www.youtube.com/watch?v=jzE3SJqLcLo&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=18&pp=iAQB)

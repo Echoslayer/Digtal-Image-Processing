@@ -19,6 +19,7 @@ tags:
 
 ### Youtube 筆記
 #### [[Index of 數位影像處理_YT線上課程]]
+#### [[Index of 二維自動化光學檢測及應用_YT線上課程]]
 <img src="https://high.deltamoocx.net/static/deltamoocx/images/banner_all.jpg" style="width:10rem">
 
 

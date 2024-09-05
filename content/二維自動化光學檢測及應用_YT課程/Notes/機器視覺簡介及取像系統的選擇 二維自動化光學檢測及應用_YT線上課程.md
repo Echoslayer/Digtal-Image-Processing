@@ -1,0 +1,128 @@
+---
+title: 機器視覺簡介及取像系統的選擇
+draft: false
+tags: 
+date: 2024-09-05
+---
+## 原作者
+原投影片作者:  吳先晃
+雲林科技大學電機系教授
+
+
+## 機器視覺簡介及取像系統的選擇
+- [課程及機器視覺簡介](https://www.youtube.com/watch?v=Hpp_wC0FMDE&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=1&pp=iAQB)
+	- ![[Pasted image 20240905191604.png]]
+	- ![[Pasted image 20240905191810.png]]
+	- 定義 
+		- 以非接觸式的方式自動擷取影像·並經自動分析影像,從中抽取資料來控制一程序或動作 
+	- 需求 
+		- 自動化大量生產+品質確認 人工檢測的問題(速度、可靠度、穩定度》 AO丨的優勢(全自動、改進人工缺點)
+	- 定位(Positioning) 
+		- 決定工件的位置及方向 
+		- 光學點或工件本身的特徵 
+		- 待測物相對於機台原點的位置 
+		- 例:PCB(白色箭頭) >(x,y)及旋轉量:對角線兩點 
+		- 自動對位精準且節省大量人力
+	- 識別(Recognition) 
+		- 以物品本身的特徵判定身份 
+			- 生物(Bio)特徵:臉孔、指紋、虹膜、聲音 
+		- 工業應用:混料之零件(工件)識別與夾取/分流 
+			- 幾何形狀、顏色紋理··
+	- 辨識(ldentification) 
+		- 藉符號做物品身份判定 
+			- Barcode,QRcode 
+		- 包裝盒外的圖形或文字:辨識內容物 
+		- 車牌辨識
+	- 瑕疵檢測(DefectDetection)
+		- 工業上AOI之最大需求:可能需多站多次檢測 
+		- 瑕疵:不想要、形狀大小未知、出現位置不定 
+		- 瑕疵標準的訂定:漏檢(太鬆)或假警報(太嚴) 
+		- 應用例 
+			- 容器工業:瓶子之裂痕瑕疵及瓶內異物、碎片風險 >PCB、LOGO、TFT面板、木板坑洞··
+	- 驗證(Verification) 
+		- 保證製程成功執行 
+			- 自動化高速且自行運作監控 
+			- 貼標:避免大量廢料(例:1200in之貼標籤機)
+	- 量測(Measurement)
+		- 以影像進行尺寸的量測 
+		- 例:各種工件的尺寸 線寬、圓的圓心與半徑、兩線距離
+- [相機與鏡頭的搭配](https://www.youtube.com/watch?v=IeXPsNyjCNU&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=2&pp=iAQB)
+	- 相機與鏡頭搭配 
+		- ![[Pasted image 20240905193203.png]]
+		- 相同倍率 , 焦距越長光程越長
+		- 有時拍攝物不能距離太近，就要換一顆f大一點的鏡頭
+		- ![[Pasted image 20240905193728.png]]
+		- ![[Pasted image 20240905193838.png]]
+		- 放大倍率 alpha = v / u
+		- FOV被感光元件與放大倍率決定
+			- FOV = Sensor Size/alpha 
+	- 基本成像原理 
+	- 放大倍率 
+	- lmage circle & Sensor Size 
+	- FOV(FieId of View)
+	- 基本成像原理感光元件變大
+		- FOV變大(若image circle夠大)
+	- 倍率變大
+		- FOV變小(分辨率提高)
+	- 焦距(f)變長
+		- 光程變長(u+v)
+- [光學元件規格及選用](https://www.youtube.com/watch?v=fDLFP3VSdoE&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=3&pp=iAQB)
+	- 工業相機
+		- 接口
+			- ![[Pasted image 20240905200310.png]]
+		- 感光元件
+			- ![[Pasted image 20240905194950.png]]
+			- 像素解析度(分辨率)=Pixel Size/鏡頭倍率
+			- ![[Pasted image 20240905195230.png]]
+				- 左邊是實驗室用的小感光元件，右邊是單眼較大的
+		- 傳輸介面
+		- IO,power
+		- 快門
+			- RoIIing Shutter 條一條取像
+			- 動態必須 GIobaI Shutter 
+			- ![[Pasted image 20240905195633.png]]
+			- 
+		- 傳輸介面
+			- GiGE
+				- 100m
+				- 1Gbps
+			- USB
+				- 10m
+				- USB3.05Gbps; USB2.0480Mbps
+			- Camera Link
+				- 已經有IO
+				- 6m
+				- 2~6·8Gbps
+			- CoaxPress
+				- 已經有IO
+				- Up to 68m
+				- 1·25~25Gbps
+- [鏡頭規格及選用](https://www.youtube.com/watch?v=uaqEyVcMZQA&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=4&pp=iAQB)
+	- 鏡頭
+		- 接口
+		- 焦距
+		- 倍率
+		- 光圈
+		- Distortion
+	- 例子
+		- ![[Pasted image 20240905200707.png]]
+		- ![[Pasted image 20240905200805.png]]
+	- ![[Pasted image 20240905200918.png]]
+	- FOV不夠?
+		- 降低鏡頭倍率
+	- 像素解析度不夠?
+		- 增加鏡頭倍率
+	- FOV與像素解析度都不夠?
+		- 增加SensorSize與鏡頭倍率
+	- 應用
+		- ![[Pasted image 20240905201438.png]]
+		- 
+- [取像參數的選用](https://www.youtube.com/watch?v=zav3w2nk-PU&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=5&pp=iAQB)
+	- 
+- [遠心鏡頭及線掃描相機](https://www.youtube.com/watch?v=EeGd5nbLIUc&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=6&pp=iAQB)
+	- 
+- [光源與照明的設計](https://www.youtube.com/watch?v=n8nMBYNkGb0&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=7&pp=iAQB)
+	- 
+- [彩色成像品質的優化](https://www.youtube.com/watch?v=EgzT2La0E2k&list=PLI6pJZaOCtF0yLRQrV7JOBUaAfJ8Q-elm&index=8&pp=iAQB)
+	- 
+
