@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "2e948a8f2c3906f0",
+            "id": "7d94a4603fe8d166",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md"
+                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md"
               }
             }
           }
@@ -173,26 +173,26 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "2e948a8f2c3906f0",
+  "active": "7d94a4603fe8d166",
   "lastOpenFiles": [
-    "content/index.md",
     "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906122812.png",
-    "content/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
-    "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
     "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909165812.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170510.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170430.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170403.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170344.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170336.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170247.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170114.png",
+    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170015.png",
+    "Pasted image 20240909165953.png",
+    "content/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
+    "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
+    "content/index.md",
+    "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
     "content/二維自動化光學檢測及應用_YT課程/Notes/影像匹配 二維自動化光學檢測及應用.md",
     "content/二維自動化光學檢測及應用_YT課程/Notes/影像處理基礎複習 二維自動化光學檢測及應用.md",
-    "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906135548.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906135533.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906135028.png",
-    "Pasted image 20240906135001.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906133355.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906133242.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906131604.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240906130543.png",
-    "Pasted image 20240906130524.png",
     "README.md",
     "content/二維自動化光學檢測及應用_YT課程/Images/機器視覺簡介及取像系統的選擇",
     "content/二維自動化光學檢測及應用_YT課程/Images",
