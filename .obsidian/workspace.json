@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "content/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "content/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "content/index.md"
               }
             }
           }
@@ -161,50 +161,50 @@
   "active": "4e85ec2885337f34",
   "lastOpenFiles": [
     "content/自動化光學檢測/Index of 自動化光學檢測.md",
+    "README.md",
+    "content/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
+    "content/自動化光學檢測/Images",
+    "content/自動化光學檢測",
+    "content/論文/Notes/SideWindowFiltering paper reading.md",
+    "content/論文/Notes",
     "content/論文/Index of 論文.md",
+    "content/論文",
+    "content/數位影像處理與應用/EXP_ChatGPT/EXP_ChatGP_DCT.md",
     "content/數位影像處理與應用/Index of 數位影像處理與應用.md",
+    "content/數位影像處理與應用/EXP_ChatGPT",
+    "content/數位影像處理與應用",
+    "content/數位影像處理_YT課程/Notes/單元五 型態學影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元三 之前連結 YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元六 影像表示與描述_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元八 彩色影像處理 YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes",
     "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135128.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135101.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134902.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134758.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134428.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134406.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134340.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134208.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134113.png",
+    "content/數位影像處理/PDF/DIP_3E_Student_Solutions.pdf",
+    "content/數位影像處理/Notes/Tutorials 數位影像處理.md",
+    "content/數位影像處理/Notes/8.  影像壓縮.md",
+    "content/數位影像處理/Notes/6.  彩色影像處理.md",
+    "content/數位影像處理/Notes/3.  強度轉換與空間濾波.md",
     "content/數位影像處理/Index of 數位影像處理.md",
     "content/影像處理與電腦視覺/PDF/Chapter 9 圖形識別、匹配與三維影像重建.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 8 紋理描述與分類.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 7 圓與橢圓偵測.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 6 直線與道路偵測.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 5 門檻值決定與區域的分割.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 4 測邊.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 3 影像品質的改善與回復.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 2 型態學、DCT、人臉定位與 FFT.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 16 深度學習在電腦視覺的應用.pdf",
-    "content/影像處理與電腦視覺/PDF/Chapter 15 三維影像的彩現.pdf",
     "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
+    "content/影像處理與電腦視覺/PDF/Chapter 8 紋理描述與分類.pdf",
     "content/實驗室AOI研究/Notes/filter more about aoi.md",
     "content/實驗室AOI研究/Notes/all filters.md",
     "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
     "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "content/其他/自實現Code.md",
-    "content/其他/書籍自帶Code.md",
-    "content/其他/實驗室PPT對應.md",
-    "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
-    "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
-    "node_modules/mathjax-full/README.md",
-    "node_modules/mathjax-full/CONTRIBUTING.md",
-    "node_modules/typescript/SECURITY.md",
-    "node_modules/typescript/README.md",
-    "node_modules/jsdom/README.md",
-    "node_modules/tsx/node_modules/@esbuild/darwin-arm64/README.md",
-    "node_modules/@esbuild/darwin-arm64/README.md",
-    "node_modules/rehype-citation/README.md",
-    "node_modules/speech-rule-engine/README.md",
-    "node_modules/speech-rule-engine/bin/README.md",
-    "node_modules/css-tree/README.md",
-    "node_modules/psl/browserstack-logo.svg",
-    "node_modules/cli-spinner/img/spinner.gif",
-    "content/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909165812.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170510.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170430.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170403.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170344.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170336.png",
-    "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170247.png"
+    "content/其他/書籍自帶Code.md"
   ]
 }
