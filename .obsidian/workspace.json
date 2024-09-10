@@ -11,12 +11,8 @@
             "id": "4e85ec2885337f34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,12 +154,9 @@
   },
   "active": "435f23ab97ad5209",
   "lastOpenFiles": [
-    "Pasted image 20240910194504.png",
-    "Pasted image 20240910194450.png",
-    "content/自動化光學檢測/Index of 自動化光學檢測.md",
-    "content/自動化光學檢測/Images/Pasted image 20240910194506.png",
-    "content/index.md",
     "content/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
+    "content/自動化光學檢測/Images/Pasted image 20240910194506.png",
+    "content/自動化光學檢測/Index of 自動化光學檢測.md",
     "content/自動化光學檢測/Images",
     "content/自動化光學檢測",
     "content/論文/Notes/SideWindowFiltering paper reading.md",
@@ -178,19 +169,23 @@
     "content/數位影像處理與應用",
     "content/數位影像處理_YT課程/Notes/單元五 型態學影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes/單元三 之前連結 YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 2 門檻化_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes/單元六 影像表示與描述_YT線上課程.md",
-    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes/單元八 彩色影像處理 YT線上課程.md",
-    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes",
     "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135128.png",
-    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135101.png",
     "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134902.png",
     "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134758.png",
     "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134428.png",
     "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134406.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134340.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830130613.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830130339.png",
+    "content/數位影像處理_YT課程/Images/CH7/Pasted image 20240830130019.png",
+    "content/index.md",
     "content/數位影像處理/PDF/Rafael C. Gonzalez, Richard E. Woods - Digital Image Processing-Pearson (2007).pdf",
     "content/數位影像處理/PDF/DIP_3E_Student_Solutions.pdf",
     "content/數位影像處理/Notes/9.  形態學影像處理.md",
