@@ -89,6 +89,29 @@ date: 2024-09-10
 - 第2章　光學系統設計原理與實例
 	- 光學模組系統建構前，通常會經過
 		- 光學鏡組織設計與分析
+		- 有用參考資料
+			- L.-C. Chen and C.-C. Huang (2005), "Miniaturized 3-D Surface Profilometer Using Digital Fringe Projection", Measurement science & technology 16(5) (2005) 1061-1068
+			- L.-C. Chen and C.-C. Huang (2004), "Innovative intra-oral 3-D dental profilometry", Journal of the Chinese Society of Mechanical Engineers Vol. 25, No.5, pp436-441.
+			- L.-C. Chen and C.-C. Huang (2004), "3D profilometry with a novel intra probe using digital structured light", Int. Symposium on precision mechanical measurements, Aug. 24~28, Beijing, China, paper #A-32.
+			- 黃宗治，創新式數位結構光三維量測系統與探頭之研發，北科大碩士論文
+	- 光學基本原理
+		- 反射定理
+		- 折射定理
+		- 全內反射
+	- 像差理論
+		- 原因
+			- 繞射極限
+			- 製造幾何裕度
+			- 組合對準誤差
+		- 單色像差
+		- 色像差
+	- 成像品質
+		- 實際模數轉移函數，一般較電腦差
+	- ![[Pasted image 20240910194506.png|300]]
+	- 光學模擬軟體
+		- Oslo, Light tools, Code V, ZEMAX, ASAP
+	- **開源或免費光學模擬軟體：**
+		- **OpticsStudio Free**, **OpenRayTrace**, **Optgeo**, **IfaoOptic**, **POV-Ray (Persistence of Vision Raytracer)**
 - 第3章　數位影像處理
     - 
 - 第4章　二維檢測原理與技術
