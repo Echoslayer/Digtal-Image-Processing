@@ -10,31 +10,16 @@
           {
             "id": "6545c9412f6fbd8e",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "7d94a4603fe8d166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md"
+                "file": "content/自動化光學檢測/Index of 自動化光學檢測.md"
               }
             }
           }
@@ -173,9 +158,22 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "7d94a4603fe8d166",
+  "active": "435f23ab97ad5209",
   "lastOpenFiles": [
+    "content/自動化光學檢測/Images",
+    "content/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
+    "content/index.md",
+    "content/其他/實驗室PPT對應.md",
+    "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 2 門檻化_YT線上課程.md",
+    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
+    "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
     "content/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+    "content/自動化光學檢測/Index of 自動化光學檢測.md",
+    "content/二維自動化光學檢測及應用_YT課程/Notes/影像匹配 二維自動化光學檢測及應用.md",
+    "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
+    "templates/Index template.md",
+    "content/自動化光學檢測",
     "content/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
     "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909165812.png",
     "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170510.png",
@@ -186,39 +184,27 @@
     "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170247.png",
     "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170114.png",
     "content/二維自動化光學檢測及應用_YT課程/Images/Pasted image 20240909170015.png",
-    "Pasted image 20240909165953.png",
     "content/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
-    "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
-    "content/index.md",
     "content/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
-    "content/二維自動化光學檢測及應用_YT課程/Notes/影像匹配 二維自動化光學檢測及應用.md",
     "content/二維自動化光學檢測及應用_YT課程/Notes/影像處理基礎複習 二維自動化光學檢測及應用.md",
     "README.md",
     "content/二維自動化光學檢測及應用_YT課程/Images/機器視覺簡介及取像系統的選擇",
     "content/二維自動化光學檢測及應用_YT課程/Images",
     "content/二維自動化光學檢測及應用_YT課程/Notes",
-    "content/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
     "content/數位影像處理_YT課程/Notes",
     "content/數位影像處理/Index of 數位影像處理.md",
     "content/二維自動化光學檢測及應用_YT課程",
     "content/論文/Index of 論文.md",
     "content/論文/Notes/SideWindowFiltering paper reading.md",
-    "content/其他/實驗室PPT對應.md",
     "content/其他/書籍自帶Code.md",
     "content/其他/自實現Code.md",
     "Code/Notebooks/noices.ipynb",
     "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "content/論文/Notes",
     "content/論文",
-    "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
     "public/實驗室AOI研究/Notes/2024-08-27-filter研究.pdf",
-    "public/實驗室AOI研究/pdf/2024-08-23/2024-08-23_twice_p_darkest_aoireport.pdf",
     "content/數位影像處理_YT課程/Notes/單元五 型態學影像處理_YT線上課程.md",
-    "content/數位影像處理/Notes/9.  形態學影像處理.md",
-    "content/影像處理與電腦視覺/Index of 影像處理與電腦視覺.md",
-    "templates/Index template.md",
-    "content/數位影像處理_YT課程/Notes/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
-    "content/數位影像處理/Notes/10. 影像分割.md"
+    "content/數位影像處理/Notes/9.  形態學影像處理.md"
   ]
 }
