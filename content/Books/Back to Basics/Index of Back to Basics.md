@@ -1,0 +1,108 @@
+- [[重點紀錄 Back to Basics]]
+
+## 中文標題
+
+- 第 1 部分：光的性質與描述
+- 第 2 部分：光波的干涉
+- 第 3 部分：路徑長度與通用干涉儀
+- 第 4 部分：一些基本的干涉測量方法
+- 第 5 部分：經典干涉：牛頓環
+- 第 6 部分：另一種經典干涉：楊氏實驗
+- 第 7 部分：彩色干涉條紋
+- 第 8 部分：邁克耳孫干涉儀
+- 第 9 部分：衍射問題
+- 第 10 部分：複數振幅
+- 第 11 部分：衍射理論，第一部分
+- 第 12 部分：衍射理論，第二部分
+- 第 13 部分：衍射理論，第三部分
+- 第 14 部分：清晰孔徑的衍射
+- 第 15 部分：傅里葉光學處理
+- 第 16 部分：光學多普勒效應
+- 第 17 部分：激光多普勒干涉
+- 第 18 部分：幾何莫爾現象與模擬
+- 第 19 部分：幾何莫爾的基本應變測量
+- 第 20 部分：幾何莫爾的參數分析
+- 第 21 部分：影子莫爾
+- 第 22 部分：投影莫爾
+- 第 23 部分：反射莫爾
+- 第 24 部分：激光演示
+- 第 25 部分：客觀散斑
+- 第 26 部分：主觀散斑
+- 第 27 部分：散斑尺寸估算
+- 第 28 部分：散斑亮度分佈
+- 第 29 部分：光彈性學 I—雙折射和相對延遲
+- 第 30 部分：光彈性學 II—雙折射
+- 第 31 部分：光彈性學 III—理論
+- 第 32 部分：光彈性學 IV—可觀測量與解釋
+- 第 33 部分：光彈性學 V—條紋模式
+- 第 34 部分：光彈性學 VI—圓形
+- 第 35 部分：光彈性學 VII—基本偏光儀
+- 第 36 部分：光彈性學 VIII—記錄
+- 第 37 部分：光彈性學 IX—條紋
+- 第 38 部分：光彈性學 X—轉換
+- 第 39 部分：光彈性學 XI—偏光儀
+- 第 40 部分：光彈性學 XII—記錄
+- 第 41 部分：光彈性學 XIII—應力
+- 第 42 部分：光彈性學 XIV—反射
+- 第 43 部分：光彈性學
+- 第 44 部分：NEXUS
+- 第 45 部分：測量相位差—第一部分：問題
+- 第 46 部分：測量相位差—第二部分：補償
+- 第 47 部分：測量相位差—第三部分：相位移位設置
+- 第 48 部分：測量相位差—第四部分：相位步進算法
+- 第 49 部分：測量相位差—第五部分：相位計算
+- 第 50 部分：測量相位差—第六部分：相位展開與位移確定
+
+
+## 英文標題
+
+- Part 1: The Nature and Description of Light
+- Part 2: Interference of Light Waves
+- Part 3: Path Length and the Generic Interferometer
+- Part 4: Some Basic Methods of Interferometry
+- Part 5: A Classic Interferometry: Newton’s Rings
+- Part 6: Another Classic Interferometry: Young’s Experiment
+- Part 7: Colored Interferometry Fringes
+- Part 8: Michelson Interferometry
+- Part 9: The Diffraction Problem
+- Part 10: Complex Amplitude
+- Part 11: Diffraction Theory, Part I
+- Part 12: Diffraction Theory, Part II
+- Part 13: Diffraction Theory, Part III
+- Part 14: Diffraction at a Clear Aperture
+- Part 15: Fourier Optical Processing
+- Part 16: The Optical Doppler Effect
+- Part 17: Laser Doppler Interferometry
+- Part 18: Geometric Moire´ Phenomena and Simulations
+- Part 19: Basic Strain Measurement by Geometric Moire´
+- Part 20: Parametric Analysis of Geometric Moire´
+- Part 21: Shadow Moire´
+- Part 22: Projection Moire´
+- Part 23: Reﬂection Moire´
+- Part 24: Demonstrations of Laser
+- Part 25: Objective Speckle
+- Part 26: Subjective Speckle
+- Part 27: Speckle Size Estimates
+- Part 28: Speckle Brightness Distributions
+- Part 29: Photoelasticity I—Birefringence and Relative Retardation
+- Part 30: Photoelasticity II—Birefringence
+- Part 31: Photoelasticity III—Theory
+- Part 32: Photoelasticity IV—Observables and Interpretation
+- Part 33: Photoelasticity V—Fringe Patterns
+- Part 34: Photoelasticity VI—The Circular
+- Part 35: Photoelasticity VII—Basic Polariscope
+- Part 36: Photoelasticity VIII—Recording
+- Part 37: Photoelasticity IX—Fringes
+- Part 38: Photoelasticity X—Transfer
+- Part 39: Photoelasticity XI—Polariscope
+- Part 40: Photoelasticity XII—Recording
+- Part 41: Photoelasticity XIII—Stress
+- Part 42: Photoelasticity XIV—Reflection
+- Part 43: Photoelasticity
+- Part 44: NEXUS
+- Part 45: Measuring Phase Difference—Part I: The Problem
+- Part 46: Measuring Phase Difference—Part II: Compensation
+- Part 47: Measuring Phase Difference—Part III: A Phase-Shifting Setup
+- Part 48: Measuring Phase Difference—Part IV: Phase-Stepping Algorithms
+- Part 49: Measuring Phase Difference—Part V: Phase Calculations
+- Part 50: Measuring Phase Difference—Part VI: Phase Unwrapping and Determining Displacement

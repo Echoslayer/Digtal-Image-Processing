@@ -13,44 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "4561655c0eed769b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "55894c2f260626cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/ChatGPT 問答集/Index of ChatGPT 問題集.md",
+                "file": "content/Books/Back to Basics/Index of Back to Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "66310b191460369a",
+            "id": "fe8577cdecff53b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/ChatGPT 問答集/Notes/閾值 ChatGPT.md",
+                "file": "content/Books/Back to Basics/重點紀錄 Back to Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+                "file": "content/Books/Back to Basics/Index of Back to Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+                "file": "content/Books/Back to Basics/Index of Back to Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md"
+                "file": "content/Books/Back to Basics/Index of Back to Basics.md"
               }
             }
           }
@@ -191,51 +172,51 @@
   },
   "active": "b7d86444dfc99e85",
   "lastOpenFiles": [
-    "content/其他/實驗室PPT對應.md",
-    "content/其他/書籍自帶Code.md",
-    "content/Books/自動化光學檢測/Index of 自動化光學檢測.md",
-    "content/YT Course",
-    "content/Books",
-    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/影像匹配 二維自動化光學檢測及應用.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/影像處理基礎複習 二維自動化光學檢測及應用.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
-    "content/ChatGPT 問答集/Notes/閾值 ChatGPT.md",
+    "content/Books/Back to Basics/重點紀錄 Back to Basics.md",
+    "content/Books/Back to Basics/Index of Back to Basics.md",
+    "content/Books/Back to Basics/PDF/01_b2bsk.pdf",
+    "Code/Notebooks/pdf_title_read.ipynb",
+    "content/Books/Back to Basics/PDF/01.pdf",
+    "content/Books/Back to Basics/chatgpt_md/07.md",
+    "content/Books/Back to Basics/chatgpt_md/09.md",
     "content/ChatGPT 問答集/Index of ChatGPT 問題集.md",
-    "content/ChatGPT 問答集/Notes/AOI ChatGPT.md",
+    "content/Books/Back to Basics/chatgpt_md/11/11.md",
+    "content/Books/Back to Basics/chatgpt_md/10/assistant_responses.md",
+    "content/Books/Back to Basics/chatgpt_md/10/human_responses.md",
+    "content/Books/Back to Basics/chatgpt_md/10/10.png",
+    "content/Books/Back to Basics/chatgpt_md/08.md",
+    "content/Books/Back to Basics/chatgpt_md/08/08.md",
     "content/index.md",
-    "content/ChatGPT 問答集/Notes",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
-    "content/YT Course/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
-    "content/Books/數位影像處理與應用/Index of 數位影像處理與應用.md",
-    "content/ChatGPT 問答集",
-    "templates/Index template.md",
-    "content/YT Course/數位影像處理_YT課程/Notes/單元七 影像分割_part 2 門檻化_YT線上課程.md",
-    "content/YT Course/數位影像處理_YT課程/Notes/單元八 彩色影像處理 YT線上課程.md",
-    "content/YT Course/數位影像處理_YT課程/Notes/單元七 影像分割_part 1邊緣檢測_YT線上課程.md",
+    "content/Books/Back to Basics/chatgpt_md/07/assistant_responses.md",
+    "content/Books/Back to Basics/chatgpt_md/07/human_responses.md",
+    "content/Books/Back to Basics/chatgpt_md/28.md",
+    "content/Books/自動化光學檢測/Index of 自動化光學檢測.md",
+    "content/Books/Back to Basics/PDF/omma02.pdf",
+    "content/Books/Back to Basics/PDF/50.pdf",
+    "content/Books/Back to Basics/PDF/49.pdf",
+    "content/Books/Back to Basics/PDF/48.pdf",
+    "content/Books/Back to Basics/PDF/47.pdf",
+    "content/Books/Back to Basics/PDF/46.pdf",
+    "content/Books/Back to Basics/PDF/45.pdf",
+    "content/Books/Back to Basics/chatgpt_md/27/27.md",
+    "content/Books/Back to Basics/chatgpt_md/26/25.md",
+    "content/Books/Back to Basics/chatgpt_md/25/25.md",
+    "content/Books/Back to Basics/chatgpt_md/24/24.md",
+    "content/Books/Back to Basics/chatgpt_md/23/23.md",
+    "content/Books/Back to Basics/chatgpt_md/22/22.md",
+    "content/Books/Back to Basics/chatgpt_md/21/21.md",
+    "content/Books/Back to Basics/chatgpt_md/20/20.md",
+    "content/Books/Back to Basics/chatgpt_md/19/19.md",
+    "content/Books/Back to Basics/chatgpt_md/18/18.md",
+    "content/Books/Back to Basics/chatgpt_md/17/17.md",
+    "content/Books/Back to Basics/chatgpt_md/15/15.png",
+    "content/Books/Back to Basics/chatgpt_md/14/14.png",
+    "content/Books/Back to Basics/chatgpt_md/13/13.png",
+    "content/Books/Back to Basics/chatgpt_md/11/11.png",
     "content/Books/自動化光學檢測/Images/Pasted image 20240910194506.png",
-    "README.md",
     "content/Books/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
-    "content/Books/自動化光學檢測/Images",
-    "content/Books/自動化光學檢測",
-    "content/論文/Notes/SideWindowFiltering paper reading.md",
-    "content/論文/Notes",
-    "content/論文/Index of 論文.md",
-    "content/論文",
-    "content/Books/數位影像處理與應用/EXP_ChatGPT/EXP_ChatGP_DCT.md",
-    "content/Books/數位影像處理與應用/EXP_ChatGPT",
-    "content/Books/數位影像處理與應用",
-    "content/YT Course/數位影像處理_YT課程/Notes/單元五 型態學影像處理_YT線上課程.md",
     "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135128.png",
     "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135101.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134902.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134758.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134428.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134406.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134340.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134208.png"
+    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830134902.png"
   ]
 }

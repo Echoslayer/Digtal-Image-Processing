@@ -20,6 +20,8 @@ tags:
 #### [[Index of 自動化光學檢測]]
 <img src="https://www.gau-lih.com.tw/tier/ezcatfiles/gau-lih/img/pictures/2/232516_L_232516.jpg" style="width:10rem">
 
+#### [[Index of Back to Basics]]
+
 ### Youtube 筆記
 #### [[Index of 數位影像處理_YT線上課程]]
 #### [[Index of 二維自動化光學檢測及應用_YT線上課程]]
