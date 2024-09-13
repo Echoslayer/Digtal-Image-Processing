@@ -4,30 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "98edf3e75b381609",
+        "id": "e60b3aaccfe5496e",
         "type": "tabs",
         "children": [
           {
-            "id": "b7d86444dfc99e85",
+            "id": "4e32a0a4b6238d54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Books/Back to Basics/Index of Back to Basics.md",
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "965590cd7cf06a6e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "fe8577cdecff53b6",
+            "id": "ea83af6429691b01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "content/Books/Back to Basics/重點紀錄 Back to Basics.md",
-                "mode": "source",
-                "source": false
+                "file": "content/Books/Back to Basics/PDF/01_b2bsk.pdf"
               }
             }
           }
@@ -81,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "e43feada86755505",
@@ -97,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Books/Back to Basics/Index of Back to Basics.md",
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Books/Back to Basics/Index of Back to Basics.md",
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Books/Back to Basics/Index of Back to Basics.md"
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md"
               }
             }
           }
@@ -170,11 +174,15 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "b7d86444dfc99e85",
+  "active": "4e32a0a4b6238d54",
   "lastOpenFiles": [
-    "content/Books/Back to Basics/重點紀錄 Back to Basics.md",
-    "content/Books/Back to Basics/Index of Back to Basics.md",
+    "content/Books/Back to Basics/英文重點紀錄 Back to Basics - 複製.md",
+    "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
+    "content/Books/Back to Basics/英文重點紀錄 Back to Basics.md",
     "content/Books/Back to Basics/PDF/01_b2bsk.pdf",
+    "03_b2bsk.md",
+    "content/Books/Back to Basics/中文重點紀錄 Back to Basics copy.md",
+    "content/Books/Back to Basics/Index of Back to Basics.md",
     "Code/Notebooks/pdf_title_read.ipynb",
     "content/Books/Back to Basics/PDF/01.pdf",
     "content/Books/Back to Basics/chatgpt_md/07.md",
@@ -204,11 +212,6 @@
     "content/Books/Back to Basics/chatgpt_md/24/24.md",
     "content/Books/Back to Basics/chatgpt_md/23/23.md",
     "content/Books/Back to Basics/chatgpt_md/22/22.md",
-    "content/Books/Back to Basics/chatgpt_md/21/21.md",
-    "content/Books/Back to Basics/chatgpt_md/20/20.md",
-    "content/Books/Back to Basics/chatgpt_md/19/19.md",
-    "content/Books/Back to Basics/chatgpt_md/18/18.md",
-    "content/Books/Back to Basics/chatgpt_md/17/17.md",
     "content/Books/Back to Basics/chatgpt_md/15/15.png",
     "content/Books/Back to Basics/chatgpt_md/14/14.png",
     "content/Books/Back to Basics/chatgpt_md/13/13.png",

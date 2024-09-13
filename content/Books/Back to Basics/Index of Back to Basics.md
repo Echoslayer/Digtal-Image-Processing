@@ -1,4 +1,4 @@
-- [[重點紀錄 Back to Basics]]
+- [[中文重點紀錄 Back to Basics]]
 
 ## 中文標題
 
