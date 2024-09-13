@@ -35,7 +35,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "content/Books/Back to Basics/PDF/02_b2bsk.pdf"
+                "file": "content/Books/Back to Basics/PDF/03_b2bsk.pdf"
               }
             }
           }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Books/Back to Basics/PDF/02_b2bsk.pdf",
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Books/Back to Basics/PDF/02_b2bsk.pdf",
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Books/Back to Basics/PDF/02_b2bsk.pdf"
+                "file": "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md"
               }
             }
           }
@@ -178,26 +178,34 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "58068067bef0e4c7",
+  "active": "4e32a0a4b6238d54",
   "lastOpenFiles": [
+    "content/Books/Back to Basics/PDF/03_b2bsk.pdf",
+    "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
+    "content/Books/Back to Basics/Index of Back to Basics.md",
+    "content/Books/Back to Basics/PDF/02_b2bsk.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_twice_p_darkest_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_6cm_aoireport.pdf",
+    "content/index.md",
+    "content/YT Course/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_4cm_aoireport.pdf",
+    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_no_p_aoireport.pdf",
+    "content/實驗室AOI研究/Notes/filter more about aoi.md",
+    "content/實驗室AOI研究/Notes/all filters.md",
+    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.pdf",
+    "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
+    "content/實驗室AOI研究/Notes",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "Code/Resources/template/origin.jpg",
     "Code/Resources/Private_Data/Exp_20240910_Panel/Thumbs.db",
     "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_4.tif",
-    "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_3.tif",
     "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_2.bmp",
-    "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_1.tif",
-    "Code/Resources/Private_Data/Exp_20240910_Panel",
-    "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
-    "content/Books/Back to Basics/PDF/02_b2bsk.pdf",
-    "content/Books/Back to Basics/PDF/01_b2bsk.pdf",
     "content/Books/Back to Basics/中文重點紀錄 Back to Basics copy.md",
     "content/Books/Back to Basics/英文重點紀錄 Back to Basics.md",
     "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
     "content/其他/自實現Code.md",
     "content/其他/書籍自帶Code.md",
     "content/其他/實驗室PPT對應.md",
-    "content/其他/介紹投影片",
-    "content/其他",
     "content/YT Course/數位影像處理_YT課程/Notes/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
     "content/YT Course/數位影像處理_YT課程/Notes/單元六 影像表示與描述_YT線上課程.md",
     "content/YT Course/數位影像處理_YT課程/Notes/單元八 彩色影像處理 YT線上課程.md",
@@ -209,14 +217,6 @@
     "content/ChatGPT 問答集/Index of ChatGPT 問題集.md",
     "content/Books/自動化光學檢測/Index of 自動化光學檢測.md",
     "content/Books/數位影像處理與應用/Index of 數位影像處理與應用.md",
-    "content/論文/Notes/SideWindowFiltering paper reading.md",
-    "content/論文/Notes",
-    "content/論文/Index of 論文.md",
-    "content/Books/Back to Basics/英文重點紀錄 Back to Basics - 複製.md",
-    "03_b2bsk.md",
-    "content/Books/Back to Basics/Index of Back to Basics.md",
-    "content/Books/Back to Basics/chatgpt_md/07.md",
-    "content/Books/Back to Basics/chatgpt_md/09.md",
     "content/Books/Back to Basics/chatgpt_md/10/10.png",
     "content/Books/Back to Basics/chatgpt_md/15/15.png",
     "content/Books/Back to Basics/chatgpt_md/14/14.png",
@@ -224,7 +224,6 @@
     "content/Books/Back to Basics/chatgpt_md/11/11.png",
     "content/Books/自動化光學檢測/Images/Pasted image 20240910194506.png",
     "content/Books/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135128.png",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135101.png"
+    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135128.png"
   ]
 }
