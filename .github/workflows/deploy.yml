@@ -1,45 +1,45 @@
-name: Deploy Quartz site to GitHub Pages
+name: Deploy Quartz site to GitHub Pages  # 設定工作流程名稱為 "Deploy Quartz site to GitHub Pages"
  
 on:
   push:
     branches:
-      - v4
+      - v4  # 當推送到 v4 分支時觸發此工作流程
  
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read  # 允許讀取內容的權限
+  pages: write  # 允許寫入 GitHub Pages 的權限，用於部署
+  id-token: write  # 用於身份驗證，必要時授予 ID Token 的權限
  
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "pages"  # 設定併發組名為 "pages"
+  cancel-in-progress: false  # 不取消進行中的相同組的工作流程
  
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04  # 工作流程在 Ubuntu 22.04 作業系統上運行
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4  # 使用 actions/checkout 來檢出儲存庫的代碼
         with:
-          fetch-depth: 0 # Fetch all history for git info
-      - uses: actions/setup-node@v4
+          fetch-depth: 0  # 取出完整的 git 歷史紀錄，以便使用所有 git 資訊
+      - uses: actions/setup-node@v4  # 使用 actions/setup-node 來設定 Node.js 環境
         with:
-          node-version: 22
-      - name: Install Dependencies
-        run: npm ci
-      - name: Build Quartz
-        run: npx quartz build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          node-version: 22  # 使用 Node.js 22 版本
+      - name: Install Dependencies  # 安裝專案所需的依賴
+        run: npm ci  # 使用 npm ci 來安裝 package-lock.json 鎖定的依賴項
+      - name: Build Quartz  # 執行 Quartz 構建步驟
+        run: npx quartz build  # 使用 npx 執行 Quartz 的構建命令
+      - name: Upload artifact  # 上傳構建後的靜態文件為 artifact
+        uses: actions/upload-pages-artifact@v3  # 使用 actions/upload-pages-artifact 上傳到 GitHub Pages
         with:
-          path: public
+          path: public  # 指定要上傳的檔案路徑為 public 資料夾
  
   deploy:
-    needs: build
+    needs: build  # 此工作依賴於 build 工作完成後才能執行
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+      name: github-pages  # 指定部署的環境名稱為 GitHub Pages
+      url: ${{ steps.deployment.outputs.page_url }}  # 部署成功後的 GitHub Pages 網址
+    runs-on: ubuntu-latest  # 工作流程在 Ubuntu 最新版本的作業系統上運行
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages  # 執行部署步驟，將構建的文件部署到 GitHub Pages
+        id: deployment  # 設定這個步驟的 ID 為 deployment
+        uses: actions/deploy-pages@v4  # 使用 actions/deploy-pages 來將文件部署到 GitHub Pages

@@ -1,72 +1,72 @@
-name: Build and Test
+name: Build and Test  # 設定工作流程名稱為 "Build and Test"
 
 on:
-  pull_request:
+  pull_request:  # 當針對 v4 分支提交 pull request 時觸發此工作流程
     branches:
       - v4
-  push:
+  push:  # 當推送到 v4 分支時觸發此工作流程
     branches:
       - v4
-  workflow_dispatch:
+  workflow_dispatch:  # 支援手動觸發此工作流程
 
 jobs:
   build-and-test:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
+    if: ${{ github.repository == 'jackyzha0/quartz' }}  # 限制工作僅在特定儲存庫下執行
     strategy:
       matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
-    runs-on: ${{ matrix.os }}
+        os: [windows-latest, macos-latest, ubuntu-latest]  # 定義在 Windows、macOS、Ubuntu 三個作業系統下執行
+    runs-on: ${{ matrix.os }}  # 根據矩陣選擇作業系統
     permissions:
-      contents: write
+      contents: write  # 允許寫入內容的權限
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4  # 取出儲存庫中的代碼
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 完全取回提交歷史
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4  # 設定 Node.js 環境
         with:
-          node-version: 20
+          node-version: 20  # 使用 Node.js 20 版本
 
-      - name: Cache dependencies
+      - name: Cache dependencies  # 使用快取加速 npm 安裝
         uses: actions/cache@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.npm  # 快取目錄為 ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}  # 依據 package-lock.json 檔案建立快取 key
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-node-  # 如果快取失敗，嘗試使用這個 key 的前綴來恢復快取
 
-      - run: npm ci
+      - run: npm ci  # 清除並安裝專案的依賴項
 
-      - name: Check types and style
+      - name: Check types and style  # 執行檢查代碼類型和風格的指令
         run: npm run check
 
-      - name: Test
+      - name: Test  # 執行測試
         run: npm test
 
-      - name: Ensure Quartz builds, check bundle info
+      - name: Ensure Quartz builds, check bundle info  # 確認 Quartz 构建成功並檢查 bundle 資訊
         run: npx quartz build --bundleInfo
 
   publish-tag:
-    if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/v4' }}
-    runs-on: ubuntu-latest
+    if: ${{ github.repository == 'jackyzha0/quartz' && github.ref == 'refs/heads/v4' }}  # 僅在指定儲存庫且分支為 v4 時觸發此工作
+    runs-on: ubuntu-latest  # 在 Ubuntu 作業系統上運行
     permissions:
-      contents: write
+      contents: write  # 允許寫入內容的權限
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4  # 取出儲存庫中的代碼
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 完全取回提交歷史
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4  # 設定 Node.js 環境
         with:
-          node-version: 20
-      - name: Get package version
-        run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
-      - name: Create release tag
-        uses: pkgdeps/git-tag-action@v3
+          node-version: 20  # 使用 Node.js 20 版本
+      - name: Get package version  # 取得 package.json 中的專案版本
+        run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV  # 將版本號寫入環境變數
+      - name: Create release tag  # 創建一個 Git 標籤，標記當前版本
+        uses: pkgdeps/git-tag-action@v3  # 使用 git-tag-action 創建標籤
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_repo: ${{ github.repository }}
-          version: ${{ env.PACKAGE_VERSION }}
-          git_commit_sha: ${{ github.sha }}
-          git_tag_prefix: "v"
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token 進行身份驗證
+          github_repo: ${{ github.repository }}  # 指定儲存庫
+          version: ${{ env.PACKAGE_VERSION }}  # 使用從 package.json 獲得的版本號
+          git_commit_sha: ${{ github.sha }}  # 針對目前的提交進行標籤
+          git_tag_prefix: "v"  # 標籤的前綴為 "v"
