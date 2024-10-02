@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md",
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md",
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md",
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/其他/實驗室PPT對應.md"
+                "file": "content/實驗室AOI研究/Index of 實驗室AOI研究.md"
               }
             }
           }
@@ -197,12 +197,20 @@
   },
   "active": "6e8487177399853a",
   "lastOpenFiles": [
+    "Code/Notebooks/filters.ipynb",
+    "Code/Notebooks/test_notebooks/filters copy.ipynb",
+    "Code/Notebooks/mymodules/__pycache__/filters.cpython-39.pyc",
+    "Code/Notebooks/test_notebooks/filters.ipynb",
+    "Code/Notebooks/mymodules/filters.py",
+    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.pdf",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+    "content/光學檢測/Index of 光電檢測課程.md",
+    "content/其他/實驗室PPT對應.md",
     "templates/Index template.md",
     "content/其他/介紹投影片/自動化光學檢測例子介紹 PPT.md",
     "未命名.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
     "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
-    "content/其他/實驗室PPT對應.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
@@ -219,22 +227,14 @@
     "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_6cm_aoireport.pdf",
     "content/YT Course/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
     "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_ok_4cm_aoireport.pdf",
-    "content/實驗室AOI研究/pdf/2024-08-23/2024-08-23_line_light_no_p_aoireport.pdf",
     "content/實驗室AOI研究/Notes/filter more about aoi.md",
     "content/實驗室AOI研究/Notes/all filters.md",
-    "content/實驗室AOI研究/Notes/2024-08-27 filter研究.pdf",
     "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
-    "content/實驗室AOI研究/Notes",
-    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "Code/Resources/template/origin.jpg",
-    "Code/Resources/Private_Data/Exp_20240910_Panel/Thumbs.db",
-    "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_4.tif",
     "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_2.bmp",
     "content/Books/Back to Basics/中文重點紀錄 Back to Basics copy.md",
     "content/Books/Back to Basics/英文重點紀錄 Back to Basics.md",
     "content/其他/自實現Code.md",
-    "content/其他/書籍自帶Code.md",
-    "content/YT Course/數位影像處理_YT課程/Notes/單元四 頻率上濾波 數位影像處理_YT線上課程.md",
     "content/Books/Back to Basics/chatgpt_md/10/10.png",
     "content/Books/Back to Basics/chatgpt_md/15/15.png",
     "content/Books/Back to Basics/chatgpt_md/14/14.png",

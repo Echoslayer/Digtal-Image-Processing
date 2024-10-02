@@ -4,3 +4,5 @@ matplotlib
 pandas
 jupyter
 ipykernel
+numba
+scikit-image
