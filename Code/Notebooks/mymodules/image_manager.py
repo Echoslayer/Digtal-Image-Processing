@@ -8,6 +8,8 @@ from datetime import datetime
 class ImageManager: 
     def __init__(self, path) -> None: 
         self.path = Path(path)
+        self.folder = self.path.parent
+        self.name = self.path.name
         self.image = cv2.imread(self.path.as_posix())  # 讀取圖像 
         if self.image is None: 
             raise ValueError(f"Cannot load image at {self.path}")  # 若圖像無法讀取，則拋出錯誤 
@@ -40,6 +42,8 @@ class ImageManager:
          
     def basic_array_info(self): 
         """基本資訊""" 
+        print(f"Name: {self.name}")
+        print(f"Folder: {self.folder}")
         print("Type: ", type(self.image)) 
         print("Shape: ", self.image.shape) 
         print("Max: ", self.image.max()) 
@@ -47,27 +51,30 @@ class ImageManager:
         print("Mean: ", self.image.mean()) 
         print("Standard Deviation: ", np.std(self.image)) 
  
-    def save(self, name=None, output_folder=None): 
+    def save(self, name=None, output_folder=None, replace=False): 
         """儲存圖片"""
-        # 如果未指定name，則使用原始文件名加上"_modified"
-        current = datetime.now().strftime('%Y%m%d_%H%M%S')
+        # 如果未指定name，則使用原始文件名
         if name is None: 
-            # 使用原始文件名加上時間戳
-            name = f"{self.path.stem}_{current}{self.path.suffix}"
-        else: 
-            # 確保指定的名稱包含正確的文件後綴 
-            if not name.endswith(self.path.suffix): 
-                name = f"{name}_{current}{self.path.suffix}"
-            else:
-                name = f"{name}_{current}{self.path.suffix}"
- 
+            name = self.path.stem
+        
         # 如果未指定output_folder，則使用與原始文件相同的文件夾 
         if output_folder is None: 
-            output_folder = self.path.parent 
- 
+            output_folder = self.path.parent
+
         # 構建最終的輸出路徑 
-        output_path = Path(output_folder) / name 
- 
+        output_path = Path(output_folder) / f"{name}{self.path.suffix}"
+        
+        # 檢查是否存在同名檔案
+        if output_path.exists():
+            if replace:
+                # 如果replace為True，覆蓋同名檔案
+                print(f"File with the same name exists. Replacing: {output_path}")
+            else:
+                # 如果replace為False，添加datetime後綴
+                current = datetime.now().strftime('%Y%m%d_%H%M%S')
+                output_path = Path(output_folder) / f"{name}_{current}{self.path.suffix}"
+                print(f"File with the same name exists. Saving with timestamp: {output_path}")
+        
         # 保存圖像到指定的路徑 
         success = cv2.imwrite(output_path.as_posix(), self.image) 
         if success: 
@@ -90,6 +97,14 @@ class ImageManager:
         
         plt.axis('on' if axis else 'off')  # 顯示或隱藏軸 
         plt.show()  # 顯示圖像
+    
+    def histogram_show(self):
+        """顯示圖片的直方圖"""
+        plt.hist(self.image.ravel(), bins=256, color='black')
+        plt.title('Histogram')
+        plt.xlabel('Pixel Value')
+        plt.ylabel('Frequency')
+        plt.show()
           
     def crop(self, x1, x2, y1, y2): 
         """裁剪圖像"""
@@ -100,26 +115,39 @@ class ImageManager:
         """返回當前 ImageManager 物件的深度副本，保留當前圖像和屬性"""
         return copy.deepcopy(self)
  
-    def process(self,  function, params=None, compare=False, compare_config=None): 
-        """輸入一方法，用其處理圖片
+    def change_name(self, name=None, suffix=None):
+        """更改檔案名或後綴"""
+        # 如果提供了新的文件名，則更新 stem
+        if name:
+            self.path = self.path.with_stem(name)
+            
+        # 如果提供了新的後綴，則更新後綴
+        if suffix:
+            if not suffix.startswith('.'):
+                suffix = '.' + suffix  # 確保後綴以 '.' 開頭
+            self.path = self.path.with_suffix(suffix)
+            
+        # 更新對應的檔案名屬性
+        self.name = self.path.name
         
-        example: params={'standard': 2, 'print_image': True, 'print_threshold': False}
-        """
+        
+    def process(self, function, params=None, compare=False): 
+        """輸入一方法，用其處理圖片"""
         # 產生圖像副本，應用處理函數
         new_im = self.copy()  # 複製當前的 ImageManager
         if params:
             new_im.image = function(new_im.image, **params) 
         else:
             new_im.image = function(new_im.image) 
+            
+        # 使用函數名稱作為新檔案的名稱
+        new_im.change_name(name=function.__name__)
         
         if compare:
-            if compare_config is None:
-                compare_config = {'original_title': 'Original Image', 'processed_title': function.__name__}
-            self.compare(new_im, compare_config)
-        
-        return new_im 
+            self.compare(new_im)
+        return new_im
     
-    def compare(self, new_im, compare_config):
+    def compare(self, new_im):
         """比較處理圖片前後"""
 
         plt.figure(figsize=(18, 6))
@@ -127,13 +155,13 @@ class ImageManager:
         # 顯示原始影像
         plt.subplot(1, 2, 1)
         plt.imshow(self.image, cmap=self.cmap)
-        plt.title(compare_config.get('original_title', 'Original Image'))
+        plt.title(self.name)
         plt.axis('off')
 
         # 顯示處理後的影像
         plt.subplot(1, 2, 2)
         plt.imshow(new_im.image, cmap=new_im.cmap)
-        plt.title(compare_config.get('processed_title', 'Processed Image'))
+        plt.title(new_im.name)
         plt.axis('off')
         
         plt.tight_layout()
