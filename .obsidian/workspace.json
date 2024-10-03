@@ -47,16 +47,14 @@
             "id": "6e8487177399853a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "content/實驗室AOI研究/Notes/2024-10-03 友達試片研究.md",
-                "mode": "source",
-                "source": false
+                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md"
+                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf"
               }
             }
           }
@@ -195,8 +193,12 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "77c3b9230291d9b7",
+  "active": "6e8487177399853a",
   "lastOpenFiles": [
+    "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+    "content/實驗室AOI研究/Notes/2024-10-03 友達試片研究.md",
+    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
     "Code/Resources/outputs/pdf/2024-10-03.zip",
     "Code/Resources/outputs/pdf/封存.zip",
     "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_6_2.tif_aoireport.pdf",
@@ -207,11 +209,7 @@
     "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_4_1.tif_aoireport.pdf",
     "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_3_2.tif_aoireport.pdf",
     "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_3_1.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_2_2.tif_aoireport.pdf",
     "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
-    "content/實驗室AOI研究/Notes/2024-10-03 友達試片研究.md",
-    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
-    "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
     "content/實驗室AOI研究/Notes/filter more about aoi.md",
     "content/實驗室AOI研究/Notes/all filters.md",
     "content/光學檢測/Index of 光電檢測課程.md",
@@ -219,7 +217,6 @@
     "templates/Index template.md",
     "content/其他/介紹投影片/自動化光學檢測例子介紹 PPT.md",
     "未命名.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
