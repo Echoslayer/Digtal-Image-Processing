@@ -92,7 +92,9 @@ class ImageManager:
         plt.imshow(self.image, cmap=self.cmap)
         
         # 檢查是否提供了標題並相應地設置
-        if title:
+        if title is True:
+            plt.title(self.name)
+        elif title:
             plt.title(title)
         
         plt.axis('on' if axis else 'off')  # 顯示或隱藏軸 
@@ -106,11 +108,6 @@ class ImageManager:
         plt.ylabel('Frequency')
         plt.show()
           
-    def crop(self, x1, x2, y1, y2): 
-        """裁剪圖像"""
-        self.image = self.image[y1:y2, x1:x2] 
-        self.show()  # 顯示裁剪後的圖像 
-     
     def copy(self): 
         """返回當前 ImageManager 物件的深度副本，保留當前圖像和屬性"""
         return copy.deepcopy(self)
@@ -174,7 +171,6 @@ if __name__ == "__main__":
     origin_im = ImageManager(r'/Users/xieweizhe/Desktop/MacCode/Digital-Image-Processing/Code/Resources/Data/Exp_20240925_AUO/1_1.tif') 
     origin_im.basic_array_info() 
     origin_im.show()  # 顯示圖像 
-    origin_im.crop(700, 1200, 200, 600)  # 裁剪圖像 
     origin_im.choose_rgb('r')  # 選擇紅色通道 
     origin_im.show(title='red channel')  # 顯示紅色通道的圖像 
     
@@ -182,11 +178,13 @@ if __name__ == "__main__":
         import os
         print(os.getcwd())
         os.chdir('../')
-        from mymodules import filters  # 如果在包內
+        from mymodules.filter.basic_filters import crop  # 如果在包內
     except ImportError:
-        import filters  # 如果直接在當前路徑中
+        from filter.basic_filters import crop # 如果直接在當前路徑中
         
     
     # # 應用處理函數，使用二值化
-    new_im = origin_im.process(function=filters.equalized_image, compare=True) 
+    new_im = origin_im.process(function=crop, 
+                               compare=True,
+                               params={'x1':700,'x2':1200,'y1':200,'y2':600}) 
     new_im.show()  # 顯示處理後的圖像

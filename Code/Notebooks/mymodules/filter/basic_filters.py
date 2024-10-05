@@ -51,3 +51,23 @@ def get_lines_hough(image, threshold=30, min_line_length=50, max_line_gap=25):
                 cv2.line(lines_image, (x1, y1), (x2, y2), 255, 1)
     
     return lines_image
+
+def crop(image:np.ndarray, x1, x2, y1, y2):  
+    """裁剪圖像"""
+    return image[y1:y2, x1:x2] 
+
+def rotate(image: np.ndarray, angle: float):
+    """旋轉圖像"""
+    # 獲取圖像的尺寸
+    (h, w) = image.shape[:2]
+    
+    # 計算圖像中心
+    center = (w // 2, h // 2)
+    
+    # 獲取旋轉矩陣
+    M = cv2.getRotationMatrix2D(center, angle, 1.0)
+    
+    # 執行旋轉操作
+    rotated_image = cv2.warpAffine(image, M, (w, h))
+    
+    return rotated_image

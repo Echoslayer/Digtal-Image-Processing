@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf",
+                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf",
+                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf"
+                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md"
               }
             }
           }
@@ -193,23 +193,31 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "6e8487177399853a",
+  "active": "77c3b9230291d9b7",
   "lastOpenFiles": [
+    "Code/Notebooks/mymodules/filter/__pycache__/morphology.cpython-39.pyc",
+    "Code/Notebooks/AOI/morphology playground.ipynb",
+    "Code/Notebooks/AOI/morphology copy.ipynb",
+    "Code/Notebooks/test_notebooks/morphology copy.ipynb",
+    "Code/Resources/Data/examples/road.jpg",
+    "Code/Resources/Data/examples/noisy_man.jpg",
+    "Code/Resources/Data/examples/man.jpg",
+    "Code/Resources/Data/examples/LAB_CAT2.jpg",
+    "Code/Resources/Data/examples/curl_road.jpg",
+    "Code/Resources/Data/examples/cat.jpg",
+    "Code/Resources/Data/examples",
+    "Code/Notebooks/AOI/all_images_pdf.ipynb",
+    "Code/Notebooks/AOI/all_filter_pdf.ipynb",
+    "Code/Notebooks/AOI/filter_playground.ipynb",
+    "Code/Notebooks/AOI/remote_notebooks.ipynb",
+    "Code/Notebooks/AOI/aoi.ipynb",
+    "Code/Notebooks/AOI/aoi_research.ipynb",
     "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
+    "content/index.md",
+    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
+    "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
     "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "content/實驗室AOI研究/Notes/2024-10-03 友達試片研究.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
-    "Code/Resources/outputs/pdf/2024-10-03.zip",
-    "Code/Resources/outputs/pdf/封存.zip",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_6_2.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_6_1.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_5_2.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_5_1.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_4_2.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_4_1.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_3_2.tif_aoireport.pdf",
-    "Code/Resources/outputs/pdf/2024-10-03_all_filters_research/2024-10-03_3_1.tif_aoireport.pdf",
-    "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
     "content/實驗室AOI研究/Notes/filter more about aoi.md",
     "content/實驗室AOI研究/Notes/all filters.md",
     "content/光學檢測/Index of 光電檢測課程.md",
@@ -224,7 +232,6 @@
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
     "content/Books/自動化光學檢測/Index of 自動化光學檢測.md",
     "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
-    "content/index.md",
     "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
     "content/Books/Back to Basics/Index of Back to Basics.md",
     "content/YT Course/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
@@ -233,12 +240,6 @@
     "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_2.bmp",
     "content/Books/Back to Basics/中文重點紀錄 Back to Basics copy.md",
     "content/Books/Back to Basics/chatgpt_md/10/10.png",
-    "content/Books/Back to Basics/chatgpt_md/15/15.png",
-    "content/Books/Back to Basics/chatgpt_md/14/14.png",
-    "content/Books/Back to Basics/chatgpt_md/13/13.png",
-    "content/Books/Back to Basics/chatgpt_md/11/11.png",
-    "content/Books/自動化光學檢測/Images/Pasted image 20240910194506.png",
-    "content/Books/自動化光學檢測/Images/Scanned_20240910-1610.jpg",
-    "content/YT Course/數位影像處理_YT課程/Images/CH7/Pasted image 20240830135128.png"
+    "content/Books/Back to Basics/chatgpt_md/15/15.png"
   ]
 }

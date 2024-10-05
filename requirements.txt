@@ -8,3 +8,4 @@ numba
 scikit-image
 reportlab==4.2.5
 papermill==2.6.0
+opencv-contrib-python==4.10.0.84
