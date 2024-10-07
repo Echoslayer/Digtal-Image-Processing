@@ -13,48 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
+                "file": "content/實驗室AOI研究/Notes/AOI程式架構.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "77c3b9230291d9b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f89556626d5fe1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e8487177399853a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
+                "file": "content/實驗室AOI研究/Notes/AOI程式架構.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
+                "file": "content/實驗室AOI研究/Notes/AOI程式架構.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md"
+                "file": "content/實驗室AOI研究/Notes/AOI程式架構.md"
               }
             }
           }
@@ -190,11 +155,23 @@
       "canvas:建立新畫布": false,
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
-      "command-palette:開啟命令面板": false
+      "command-palette:開啟命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "77c3b9230291d9b7",
+  "active": "58068067bef0e4c7",
   "lastOpenFiles": [
+    "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
+    "content/實驗室AOI研究/Notes/AOI程式架構.md",
+    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
+    "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
+    "templates/Note Template.md",
+    "content/實驗室AOI研究/pdf/2024-10-03目前filters功能.pdf",
+    "templates/Index template.md",
+    "content/Books/自動化光學檢測/Index of 自動化光學檢測.md",
+    "content/其他/實驗室PPT對應.md",
+    "content/其他/書籍自帶Code.md",
+    "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
     "Code/Notebooks/mymodules/filter/__pycache__/morphology.cpython-39.pyc",
     "Code/Notebooks/AOI/morphology playground.ipynb",
     "Code/Notebooks/AOI/morphology copy.ipynb",
@@ -210,35 +187,23 @@
     "Code/Notebooks/AOI/all_filter_pdf.ipynb",
     "Code/Notebooks/AOI/filter_playground.ipynb",
     "Code/Notebooks/AOI/remote_notebooks.ipynb",
-    "Code/Notebooks/AOI/aoi.ipynb",
-    "Code/Notebooks/AOI/aoi_research.ipynb",
-    "content/實驗室AOI研究/Notes/2024-10-03目前filters功能.md",
     "content/index.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/自動化光學檢測的應用實例 二維自動化光學檢測及應用.md",
-    "content/其他/介紹投影片/自動化光學檢測介紹 PPT.md",
-    "content/實驗室AOI研究/Index of 實驗室AOI研究.md",
     "content/實驗室AOI研究/Notes/2024-10-03 友達試片研究.md",
     "content/實驗室AOI研究/Notes/filter more about aoi.md",
     "content/實驗室AOI研究/Notes/all filters.md",
     "content/光學檢測/Index of 光電檢測課程.md",
-    "content/其他/實驗室PPT對應.md",
-    "templates/Index template.md",
     "content/其他/介紹投影片/自動化光學檢測例子介紹 PPT.md",
     "未命名.md",
-    "content/YT Course/二維自動化光學檢測及應用_YT課程/Index of 二維自動化光學檢測及應用_YT線上課程.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/二維檢測原理與技術 二維自動化光學檢測及應用.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺工具軟體 二維自動化光學檢測及應用.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/影像匹配 二維自動化光學檢測及應用.md",
     "content/YT Course/二維自動化光學檢測及應用_YT課程/Notes/機器視覺簡介及取像系統的選擇 二維自動化光學檢測及應用.md",
-    "content/Books/自動化光學檢測/Index of 自動化光學檢測.md",
     "content/其他/介紹投影片/型態學影像處理介紹PPT.md",
     "content/Books/Back to Basics/中文重點紀錄 Back to Basics.md",
     "content/Books/Back to Basics/Index of Back to Basics.md",
-    "content/YT Course/數位影像處理_YT課程/Index of 數位影像處理_YT線上課程.md",
-    "content/實驗室AOI研究/Notes/2024-08-23 AOI流程.md",
     "Code/Resources/template/origin.jpg",
     "Code/Resources/Private_Data/Exp_20240910_Panel/NTHU_2.bmp",
-    "content/Books/Back to Basics/中文重點紀錄 Back to Basics copy.md",
     "content/Books/Back to Basics/chatgpt_md/10/10.png",
     "content/Books/Back to Basics/chatgpt_md/15/15.png"
   ]

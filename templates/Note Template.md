@@ -2,7 +2,7 @@
 title: 
 draft: false
 tags:
-  - "#Index"
+  - "#Note"
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
